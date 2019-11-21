@@ -1,23 +1,21 @@
 <template>
   <div class="container">
     <div>
-      <logo />
       <h1 class="title">
-        asd
+        Weaboo Project
       </h1>
       <h2 class="subtitle">
-        My awesome Nuxt.js project
+        "Make Weaboo Great Again"
       </h2>
       <div class="links">
-        <a
-          href="https://nuxtjs.org/"
-          target="_blank"
+        <nuxt-link
+          to="/about"
           class="button--green"
         >
-          Documentation
-        </a>
+          About
+        </nuxt-link>
         <a
-          href="https://github.com/nuxt/nuxt.js"
+          href=""
           target="_blank"
           class="button--grey"
         >
@@ -29,11 +27,11 @@
 </template>
 
 <script>
-import Logo from '~/components/Logo.vue'
+// import Logo from '~/components/Logo.vue'
 
 export default {
+  layout: 'blabla',
   components: {
-    Logo
   }
 }
 </script>
@@ -56,6 +54,9 @@ export default {
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
+  position: fixed;
+  left: 15%;
+  top: 33%;
 }
 
 .subtitle {
@@ -64,9 +65,14 @@ export default {
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
+  position: fixed;
+  left: 18%;
 }
 
 .links {
   padding-top: 15px;
+  position: fixed;
+  top:40%;
+  left:60%;
 }
 </style>

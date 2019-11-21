@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-  test
+  <button class="button is-danger is-large is-fullwidth">Pri</button>
+  <nuxt-link to="/" class="button">About (internal link that belongs to the Nuxt App)</nuxt-link>
   </div>
 </template>
 
