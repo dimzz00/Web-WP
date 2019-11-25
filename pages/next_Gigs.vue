@@ -1,13 +1,13 @@
 <template>
   <div class="container2">
     <div>
-      <h1 class="title">
-        Weaboo Project
+      <h1 class="title_NG">
+        Comming soon
       </h1>
-      <h2 class="subtitle">
-        "Make Weaboo Great Again"
+      <h2 class="subtitle_NG">
+        "Next Update"
       </h2>
-      <div class="links">
+      <!-- <div class="links">
         <nuxt-link
           to="/about"
           class="button--green"
@@ -20,7 +20,7 @@
         >
           Media
         </nuxt-link>
-      </div>
+      </div> -->
     </div>
   </div>
 </template>
@@ -29,7 +29,6 @@
 // import Logo from '~/components/Logo.vue'
 
 export default {
-  layout: 'blabla',
   components: {
   }
 }
@@ -43,26 +42,27 @@ export default {
   align-items: center;
 }
 
-.title {
+.title_NG {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: bold;
+  display: block;
+  font-weight: 300;
   font-size: 150px;
   color: #35495e;
   letter-spacing: 1px;
   position: fixed;
-  left: 15%;
-  top: 28%;
+  left: 40%;
+  top:30%;
 }
 
-.subtitle {
+.subtitle_NG {
   font-weight: 300;
   font-size: 75px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
   position: fixed;
-  left: 18%;
+  left: 40%;
 }
 
 .links {

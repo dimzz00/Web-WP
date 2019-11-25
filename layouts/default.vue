@@ -1,9 +1,11 @@
 <template>
 <div>
-   <nav class="navbar" role="navigation" aria-label="main navigation">
+  <div class="columns is-multiline is-fullheight" >
+    <div class="column is-full">
+      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+            <img src="" alt="TEST">
           </a>
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
@@ -11,66 +13,102 @@
           <span aria-hidden="true"></span>
           </a>
           </div>
+          <div id="navbarBasicExample" class="navbar-menu">
+    <div class="navbar-start">
+      <a class="navbar-item">
+        -
+      </a>
+
+      <a class="navbar-item">
+        -
+      </a>
+
+      <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          -
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item">
+            ---
+          </a>
+          <a class="navbar-item">
+            ---
+          </a>
+          <a class="navbar-item">
+            Contact
+          </a>
+          <hr class="navbar-divider">
+          <a class="navbar-item">
+            ---
+          </a>
+        </div>
+      </div>
+    </div>
+    <div class="navbar-end">
+      <div class="navbar-item">
+        <div class="buttons">
+          <a class="button is-primary">
+            <strong>----</strong>
+          </a>
+          <a class="button is-light">
+            ------
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
       </nav>
-  <div class="columns">
-    <div class="column" >
-      <aside class="menu">
+    </div>
+    <div class="column has-background-info is-one-quarter is-sidebar-menu is-hidden-mobile"  >
+      <aside class="menu ">
         <p class="menu-label">
-          General
+          ???????????????????
         </p>
         <ul class="menu-list">
-          <li><a>Dashboard</a></li>
-          <li><a>Customers</a></li>
+          <li><a>------------------</a></li>
+          <li><a>------------------</a></li>
         </ul>
         <p class="menu-label">
-          Administration
+          ???????????????????
         </p>
         <ul class="menu-list">
-          <li><a>Team Settings</a></li>
+          <li><a>------------------</a></li>
           <li>
-            <a class="is-active">Manage Your Team</a>
+            <a>------------------</a>
             <ul>
-              <li><a>Members</a></li>
-              <li><a>Plugins</a></li>
-              <li><a>Add a member</a></li>
+              <li><a>------------------</a></li>
+              <li><a>------------------</a></li>
+              <li><a>------------------</a></li>
             </ul>
           </li>
-          <li><a>Invitations</a></li>
-          <li><a>Cloud Storage Environment Settings</a></li>
-          <li><a>Authentication</a></li>
+          <li><a>------------------</a></li>
+          <li><a>------------------</a></li>
+          <li><a>------------------</a></li>
         </ul>
         <p class="menu-label">
-          Transactions
+          ???????????????
         </p>
         <ul class="menu-list">
-          <li><a>Payments</a></li>
-          <li><a>Transfers</a></li>
-          <li><a>Balance</a></li>
+          <li><a>------------------</a></li>
+          <li><a>------------------</a></li>
+          <li><a>------------------</a></li>
         </ul>
       </aside>
     </div>
-    <div class="column is-three-quarters">
-       <nuxt/>
+    <div id="konten" class="column is-three-quarters is-vertical is-fullwidth">
+      <nuxt/>
     </div>
+    <div class="column is-full">
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            Kosongin dulu ae gan XD
+          </p>
+        </div>
+        </footer>
   </div>
-  <div>
-    hlo
-  </div>
-  <div class="content">
-  </div>
-  <div class="columns">
-  <div class="column is-full">
-     <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
-        </p>
-      </div>
-      </footer>
-  </div>
-  </div>
+</div>
 </div>
 </template>
 
@@ -132,6 +170,7 @@ html {
 
 .navbar{
   position: fixed;
+  width: 100%;
 }
 .footer{
   position: fixed;
@@ -139,4 +178,5 @@ html {
   align-content: center;
   width: 100%;
 }
+
 </style>

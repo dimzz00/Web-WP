@@ -1,9 +1,11 @@
 <template>
-<div>
-   <nav class="navbar" role="navigation" aria-label="main navigation">
+<div class="container3">
+  <div class="columns">
+    <div class="column is-full" >
+      <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="https://bulma.io/images/bulma-logo.png" alt="Bulma: Free, open source, and modern CSS framework based on Flexbox" width="112" height="28">
+          <a class="navbar-item" href="">
+            <img src="" alt="Weboo Project" width="112" height="28">
           </a>
           <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
           <span aria-hidden="true"></span>
@@ -12,26 +14,19 @@
           </a>
           </div>
       </nav>
-  <div class="columns">
-    <div class="column" >
     </div>
-    <div class="column is-three-quarters">
+    <div class="column is-four-fifths">
        <nuxt/>
     </div>
-  </div>
-  <div>
-    hlo
   </div>
   <div class="content">
   </div>
   <div class="columns">
   <div class="column is-full">
-     <footer class="footer">
+    <footer class="footer">
       <div class="content has-text-centered">
         <p>
-          <strong>Bulma</strong> by <a href="https://jgthms.com">Jeremy Thomas</a>. The source code is licensed
-          <a href="http://opensource.org/licenses/mit-license.php">MIT</a>. The website content
-          is licensed <a href="http://creativecommons.org/licenses/by-nc-sa/4.0/">CC BY NC SA 4.0</a>.
+          Kosongin dulu ae gan XD
         </p>
       </div>
       </footer>
@@ -93,7 +88,7 @@ html {
   position:fixed;
   top: 10%;
   left:0;
-  width: auto;
+  width: 100%;
 }
 
 .navbar{
@@ -104,5 +99,10 @@ html {
   bottom: 0;
   align-content: center;
   width: 100%;
+}
+.container3 {
+  background-image: url("punggung.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 </style>
