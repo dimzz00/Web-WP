@@ -52,7 +52,7 @@ export default {
   letter-spacing: 1px;
   position: fixed;
   left: 15%;
-  top: 28%;
+  top: 26%;
 }
 
 .subtitle {
@@ -69,6 +69,6 @@ export default {
   padding-top: 15px;
   position: fixed;
   top:40%;
-  left:60%;
+  left:55%;
 }
 </style>

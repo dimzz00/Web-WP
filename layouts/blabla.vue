@@ -1,6 +1,7 @@
 <template>
 <div class="container3">
-  <div class="columns">
+  <nuxt/>
+  <!-- <div class="columns">
     <div class="column is-full" >
       <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
@@ -31,7 +32,7 @@
       </div>
       </footer>
   </div>
-  </div>
+  </div> -->
 </div>
 </template>
 
@@ -101,8 +102,8 @@ html {
   width: 100%;
 }
 .container3 {
-  background-image: url("punggung.jpg");
-  background-size: contain;
+  background-image: url("./punggung.jpg");
+  background-size: cover;
   background-repeat: no-repeat;
 }
 </style>
