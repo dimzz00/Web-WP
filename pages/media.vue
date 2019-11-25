@@ -2,38 +2,34 @@
 <div class="container">
   <div class="columns1 is-multiline is-fullheight ">
     <div class="column3 is-full">
-      <div class="bd-notification is-Light">
       <div class="tabs">
         <ul>
-          <li  onclick=()><a>Pictures</a></li>
-          <li><a>Music</a></li>
-          <li class="is-active"><a>Videos</a></li>
-          <li><a>Documents</a></li>
+          <li :class="'tablink ' + (activeTabs == 'pictures') ? 'is-active' : ''" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
+          <li :class="'tablink ' + (activeTabs == 'Musics') ? 'is-active' : ''" @click="activeTabs = 'Musics'"><a>Musics</a></li>
+          <li :class="'tablink ' + (activeTabs == 'video') ? 'is-active' : ''" @click="activeTabs = 'video'"><a>Video</a></li>
         </ul>
       </div>
-    </div>
-    <div class="column3 is-full">
-      <div id="pictures" class="TContent">
-        <p class="is-three">Pictures</p>
-        <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-          kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-          kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
-        </p>
+      <div class="content">
+        <div class="column3 is-full">
+          <div v-if="activeTabs == 'pictures'" >
+            <h3 class="is-three">Pictures</h3>
+            <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
+              kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
+              kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+            </p>
+          </div>
+          <div v-if="activeTabs == 'video'" >
+            <h3 class="is-three">Videos</h3>
+          </div>
+          <div v-if="activeTabs == 'Musics'" >
+            <h3 class="is-three">Musics</h3>
+            <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
+              kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
+              kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+            </p>
+          </div>
+        </div>
       </div>
-      <div id="Video" class="TContent">
-        <p class="is-three">Videos</p>
-        <p>
-          <iframe width="560" height="315" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen" ></iframe>
-        </p>
-      </div>
-      <div id="Music" class="TContent">
-        <p class="is-three">Musics</p>
-        <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-          kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-          kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
-        </p>
-      </div>
-    </div>
     </div>
   </div>
 </div>
@@ -41,20 +37,25 @@
 
 <script>
 export default {
-
-}
-</script>
-
-<style>
-
-</style>
-
-<script>
-// import Logo from '~/components/Logo.vue'
-
-export default {
-  components: {
-    // Logo
+  data () {
+    return {
+      activeTabs: 'pictures'
+    }
+  },
+  methods: {
+    openTab (event, tabId) {
+      // console.log(event.target)
+    //   const tabcontent = document.getElementsByClassName('TContent')
+    //   for (let i = 0; i < tabcontent.length; i++) {
+    //     tabcontent[i].style.display = 'none'
+    //   }
+    // const tablink = document.getElementsByClassName('tablink')
+    // for (let i = 0; i < tablink.length; i++) {
+    //   tablink[i].className = tablink[i].className.replace(' is-active', '')
+    // }
+    // document.getElementById(tabId).style.display = 'block'
+    // event.currentTarget.className += 'is-active'
+    }
   }
 }
 </script>
@@ -111,4 +112,11 @@ export default {
   background-color: lightgray;
 }
 
+/* .TContent{
+  display : none;
+} */
+
+/* #Pictures{
+  display : block;
+} */
 </style>
