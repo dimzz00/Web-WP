@@ -1,11 +1,11 @@
 <template>
-  <div class="container2">
+  <div class="container">
     <div>
       <h1 class="title">
         Weaboo Project
       </h1>
       <h2 class="subtitle">
-        #MakeWeabooGreatAgain
+        "Make Weaboo Great Again"
       </h2>
       <div class="links">
         <nuxt-link
@@ -14,12 +14,12 @@
         >
           About
         </nuxt-link>
-        <nuxt-link
-          to="media"
+        <a
+          href=""
+          target="_blank"
           class="button--grey"
         >
-          Media
-        </nuxt-link>
+        </a>
       </div>
     </div>
   </div>
@@ -36,28 +36,33 @@ export default {
 </script>
 
 <style>
-.container2 {
+.container {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
+  justify-content: center;
   align-items: center;
+  text-align: center;
+  background-image: url(back1.jpg);
+  background-size:cover;
 }
 
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  font-weight: bold;
+  display: block;
+  font-weight: 300;
   font-size: 100px;
   color: #35495e;
   letter-spacing: 1px;
   position: fixed;
   left: 15%;
-  top: 26%;
+  top: 33%;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 65px;
+  font-size: 42px;
   color: #526488;
   word-spacing: 5px;
   padding-bottom: 15px;
@@ -69,6 +74,6 @@ export default {
   padding-top: 15px;
   position: fixed;
   top:40%;
-  left:55%;
+  left:60%;
 }
 </style>

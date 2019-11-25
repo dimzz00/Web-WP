@@ -4,10 +4,10 @@
     <div class="column is-full">
       <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
-          <a class="navbar-item" href="https://bulma.io">
-            <img src="" alt="TEST">
+          <a class="navbar-item" href="/">
+            <p><strong>W.P</strong></p>
           </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
@@ -15,32 +15,34 @@
           </div>
           <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-      <a class="navbar-item">
-        -
+       <a class="navbar-item" href="/about">
+        Profile
+      </a>
+       <a class="navbar-item" href="/History">
+        History
+      </a>
+       <a class="navbar-item" href="http://youtube.com">
+        Kita
+      </a>
+      <a class="navbar-item" href="http://youtube.com">
+        YT
       </a>
 
-      <a class="navbar-item">
-        -
+      <a class="navbar-item" href="https://www.instagram.com/weabooproject/">
+       IG
       </a>
 
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
-          -
+          Lain-lain
         </a>
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            ---
-          </a>
-          <a class="navbar-item">
-            ---
+            Media
           </a>
           <a class="navbar-item">
             Contact
-          </a>
-          <hr class="navbar-divider">
-          <a class="navbar-item">
-            ---
           </a>
         </div>
       </div>
@@ -48,11 +50,8 @@
     <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
-          <a class="button is-primary">
-            <strong>----</strong>
-          </a>
-          <a class="button is-light">
-            ------
+          <a class="button is-primary" href="/">
+            <strong>HOME</strong>
           </a>
         </div>
       </div>
@@ -60,50 +59,32 @@
   </div>
       </nav>
     </div>
-    <div class="column has-background-info is-one-quarter is-sidebar-menu is-hidden-mobile"  >
+    <div class="column has-background-primary is-one-fifth is-sidebar-menu is-hidden-mobile"  >
       <aside class="menu ">
-        <p class="menu-label">
-          ???????????????????
-        </p>
         <ul class="menu-list">
-          <li><a>------------------</a></li>
-          <li><a>------------------</a></li>
-        </ul>
-        <p class="menu-label">
-          ???????????????????
-        </p>
-        <ul class="menu-list">
-          <li><a>------------------</a></li>
-          <li>
-            <a>------------------</a>
+          <li><a href="/about">Profile</a></li>
+          <li><a href="/History">History</a></li>
+           <li>
+            <a>kita</a>
             <ul>
-              <li><a>------------------</a></li>
-              <li><a>------------------</a></li>
-              <li><a>------------------</a></li>
+              <li><a href="/kita1">iCHi</a></li>
+              <li><a href="/kita2">Sam</a></li>
+              <li><a href="/kita3">samID</a></li>
+              <li><a href="/kita4">Ananta</a></li>
+              <li><a href="/kita5">GiO</a></li>
             </ul>
-          </li>
-          <li><a>------------------</a></li>
-          <li><a>------------------</a></li>
-          <li><a>------------------</a></li>
-        </ul>
-        <p class="menu-label">
-          ???????????????
-        </p>
-        <ul class="menu-list">
-          <li><a>------------------</a></li>
-          <li><a>------------------</a></li>
-          <li><a>------------------</a></li>
-        </ul>
+            </li>
+            </ul>
       </aside>
     </div>
-    <div id="konten" class="column is-three-quarters is-vertical is-fullwidth">
+    <div id="konten" class="column is-four-fifth is-vertical is-fullwidth">
       <nuxt/>
     </div>
-    <div class="column is-full">
+    <div class="column has-background-primary is-full">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
-            Kosongin dulu ae gan XD
+            <strong>WEABOO PROJECT</strong>
           </p>
         </div>
         </footer>
@@ -178,5 +159,7 @@ html {
   align-content: center;
   width: 100%;
 }
-
+.konten {
+  background-image: url()
+}
 </style>

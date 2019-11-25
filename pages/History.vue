@@ -1,8 +1,9 @@
 <template>
    <div class="container">
-   <h1>HIYA</h1>
-  <br>
-   <p>kontet</p>
+   <div class="content">
+       <p class="title"><strong>Sejarah</strong></p>
+       <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
+       <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
 
   </div>
   </div>
@@ -23,9 +24,9 @@ export default {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  text-align: center;
+  text-align:center;
   background-image: url(punggung.jpg);
   background-size: cover;
 }
@@ -36,14 +37,14 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color:white;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
-  color: #526488;
+  font-size: 30px;
+  color:white;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
