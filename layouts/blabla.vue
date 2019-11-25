@@ -105,5 +105,6 @@ html {
   background-image: url("./punggung.jpg");
   background-size: cover;
   background-repeat: no-repeat;
+  color: white;
 }
 </style>

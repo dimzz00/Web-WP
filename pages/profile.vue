@@ -1,7 +1,10 @@
 <template>
-  <div class="container">
-   HIYA HIYA KONTET
+   <div class="container">
+   <h1>HIYA</h1>
+  <br>
+   <p>kontet</p>
 
+  </div>
   </div>
 </template>
 
@@ -23,6 +26,8 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
+  background-image: url(punggung.jpg);
+  background-size: cover;
 }
 
 .title {
