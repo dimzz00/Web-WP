@@ -28,7 +28,8 @@ export default {
   align-items: center;
   text-align:center;
   background-image: url(punggung.jpg);
-  background-size: cover;
+  background-size:auto;
+  background-repeat: no-repeat;
 }
 
 .title {

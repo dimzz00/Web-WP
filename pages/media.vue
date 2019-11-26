@@ -60,21 +60,17 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
-  background-image: url("punggung.jpg");
-  background-position: 97% 100%;
-  background-repeat:  no-repeat;
-  background-attachment: fixed;
-  background-size: contain;
-  background-color: rgb(243, 101, 6);
-  margin: 0;
-  padding: 0%;
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  width: auto;
+  text-align:center;
+  background-image: url(punggung.jpg);
+  background-size:auto;
+  background-repeat: no-repeat;
 }
 
 .title {
