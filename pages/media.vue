@@ -90,13 +90,11 @@ export default {
   display: flex;
   justify-content:center;
   align-items: center;
-  width: 100%;
-}
-
-.hero{
-  background-image: url(punggung.jpg);
-  background-size: cover;
+  text-align:center;
+  background-image: url(back2.png);
+  background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .title {
