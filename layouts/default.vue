@@ -1,7 +1,7 @@
 <template>
 <div>
   <div class="columns is-multiline is-fullheight is-0" id="face" >
-    <div class="column">
+    <div class="column is-full">
       <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation" style="margin-top:0px">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
@@ -79,28 +79,10 @@
   </div>
       </nav>
     </div>
-    <!-- <div class="column has-background-primary is-one-fifth is-sidebar-menu is-hidden-mobile"  >
-      <aside class="menu ">
-        <ul class="menu-list">
-          <li><a href="/about">Profile</a></li>
-          <li><a href="/History">History</a></li>
-           <li>
-            <a>kita</a>
-            <ul>
-              <li><nuxt-link to="/kita1">ichi</nuxt-link></li>
-              <li><nuxt-link to="/kita2">sam</nuxt-link></li>
-              <li><nuxt-link to="/kita3">samid</nuxt-link></li>
-              <li><nuxt-link to="/kita4">ananta</nuxt-link></li>
-              <li><nuxt-link to="/kita5">gio</nuxt-link></li>
-            </ul>
-            </li>
-            </ul>
-      </aside>
-    </div> -->
-    <div id="konten" class="column is-full is-gapless">
+    <div class="column is-full">
       <nuxt/>
     </div>
-    <!-- <div class="column has-background-primary is-full">
+    <div class="column has-background-primary">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -108,7 +90,7 @@
           </p>
         </div>
         </footer>
-  </div> -->
+  </div>
 </div>
 </div>
 </template>
@@ -175,12 +157,8 @@ html {
   position:sticky;
   width: 100%;
 }
-.navbar-end{
-align:right;
 
-}
 .footer{
-  position: fixed;
   bottom: 0;
   align-content: center;
   width: 100%;

@@ -3,8 +3,6 @@
    <h1>HIYA</h1>
   <br>
    <p>kontet</p>
-
-  </div>
   </div>
 </template>
 

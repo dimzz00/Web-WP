@@ -95,7 +95,7 @@ html {
 .navbar{
   position: fixed;
 }
-.footer{
+.footer:scope{
   position: fixed;
   bottom: 0;
   align-content: center;

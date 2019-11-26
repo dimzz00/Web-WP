@@ -1,47 +1,61 @@
 <template>
-<div class="container">
-  <div class="columns1 is-multiline ">
-    <div class="column3 is-full">
-      <div class="tabs">
-        <ul>
-          <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
-          <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Musics</a></li>
-          <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>Video</a></li>
-        </ul>
-      </div>
-      <div class="content">
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container">
+      <div class="columns1 is-multiline">
         <div class="column3 is-full">
-          <div v-if="activeTabs == 'pictures'" >
-            <h3 class="is-three">Pictures</h3>
-              <figure class="image is-128x128">
-                <img src="ananta.png">
-              </figure>
+          <div class="tabs">
+            <ul>
+              <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Musics</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>Video</a></li>
+            </ul>
           </div>
-          <div v-if="activeTabs == 'video'" >
-            <h3 class="is-three">Videos</h3>
-            <figure class="video">
-              <iframe
-              width="720"
-              height="480"
-              src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
-              frameborder="0"
-              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-              allowfullscreen>
-              </iframe>
-            </figure>
-          </div>
-          <div v-if="activeTabs == 'Musics'" >
-            <h3 class="is-three">Musics</h3>
-            <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-              kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-              kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
-            </p>
+          <div class="content">
+            <div class="column">
+              <div v-if="activeTabs == 'pictures'" >
+                <h3 class="is-three">Pictures</h3>
+                  <div class="columns is-0 is-multiline is-mobile">
+                    <div class="column is-one-quarter-desktop is-half-tablet">
+                          <figure class="image is-2by1">
+                            <img src="https://unsplash.it/300/200/?random&pic=3">
+                          </figure>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-half-tablet">
+                      <figure class="image is-2by1">
+                        <img src="ananta.png">
+                        <img src="ananta.png">
+                      </figure>
+                    </div>
+                  </div>
+              </div>
+              <div v-if="activeTabs == 'video'" >
+                <h3 class="is-three">Videos</h3>
+                <figure class="video">
+                  <iframe
+                  width="720"
+                  height="480"
+                  src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                  </iframe>
+                </figure>
+              </div>
+              <div v-if="activeTabs == 'Musics'" >
+                <h3 class="is-three">Musics</h3>
+                <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
+                  kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
+                  kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
 </div>
+</section>
 </template>
 
 <script>
@@ -71,14 +85,17 @@ export default {
 
 <style scoped>
 .container {
-  margin: 0 auto;
+  margin: center;
   min-height: 100vh;
   display: flex;
   justify-content:center;
   align-items: center;
-  text-align:center;
+  width: 100%;
+}
+
+.hero{
   background-image: url(punggung.jpg);
-  background-size:auto;
+  background-size: cover;
   background-repeat: no-repeat;
 }
 
@@ -118,7 +135,6 @@ div .columns1 {
   background: rgb(135, 206, 235, 0.3);
   width: 95%;
   position: static;
-  opacity: ;
 }
 
 div .columns1 h3 {
