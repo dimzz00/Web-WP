@@ -68,9 +68,10 @@ export default {
   justify-content:center;
   align-items: center;
   text-align:center;
-  background-image: url(punggung.jpg);
-  background-size:auto;
+  background-image: url(back2.png);
+  background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .title {

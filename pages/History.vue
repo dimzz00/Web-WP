@@ -1,7 +1,7 @@
 <template>
    <div class="container">
    <div class="content">
-       <p class="title"><strong>Sejarah</strong></p>
+       <p class="title"><strong>Sejarah perwibuaan</strong></p>
        <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
        <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
 
@@ -27,9 +27,10 @@ export default {
   justify-content:center;
   align-items: center;
   text-align:center;
-  background-image: url(punggung.jpg);
-  background-size:auto;
+  background-image: url(punggung.png);
+  background-size:cover;
   background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .title {

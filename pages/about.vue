@@ -1,10 +1,9 @@
 <template>
    <div class="container">
-   <h1>HIYA</h1>
-  <br>
-   <p>kontet</p>
-
-  </div>
+      <div class="content">
+        <p class="title">Weaboo.Project.</p><br>
+        <p class="subtitle">wibu project sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
+        </div>
   </div>
 </template>
 
@@ -26,8 +25,9 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(punggung.jpg);
+  background-image: url(back3.png);
   background-size: cover;
+  background-attachment: fixed;
 }
 
 .title {
@@ -36,19 +36,22 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: white;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
 
 .links {
   padding-top: 15px;
+}
+.column{
+
 }
 </style>

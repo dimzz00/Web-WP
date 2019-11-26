@@ -2,7 +2,7 @@
 <div>
   <div class="columns is-multiline is-fullheight is-0" id="face" >
     <div class="column">
-      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation" style="margin-top:0px">
+      <nav class="navbar" role="navigation" aria-label="main navigation">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
             <p><strong>W.P</strong></p>
@@ -27,31 +27,23 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="/kita1">
-            iChi
+          <a class="navbar-item">
+            <nuxt-link to="/kita1"><strong>iCHi</strong></nuxt-link>
           </a>
-          <a class="navbar-item" href="/kita2">
-            Sam
+          <a class="navbar-item">
+            <nuxt-link to="/kita2"><strong>Sam</strong></nuxt-link>
           </a>
-          <a class="navbar-item" href="/kita3">
-            samID
+          <a class="navbar-item">
+            <nuxt-link to="/kita3"><strong>samID</strong></nuxt-link>
           </a>
-          <a class="navbar-item" href="/kita4">
-            Ananta
+          <a class="navbar-item">
+            <nuxt-link to="/kita4"><strong>Ananta</strong></nuxt-link>
           </a>
-          <a class="navbar-item" href="/kita5">
-            GiO
+          <a class="navbar-item">
+            <nuxt-link to="/kita5"><strong>GiO</strong></nuxt-link>
           </a>
         </div>
       </div>
-      <a class="navbar-item" href="http://youtube.com">
-        YT
-      </a>
-
-      <a class="navbar-item" href="https://www.instagram.com/weabooproject/">
-       IG
-      </a>
-
       <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
           Lain-lain
@@ -59,15 +51,17 @@
 
         <div class="navbar-dropdown">
           <a class="navbar-item" href="/media">
-            Media
+            <strong>Media</strong>
           </a>
-          <a class="navbar-item">
-            Contact
+          <a class="navbar-item" href="/SongList">
+            <strong>Song List</strong>
           </a>
+          <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
+        <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
         </div>
       </div>
     </div>
-    <div class="navbar-end">
+    <!-- <div class="navbar-end">
       <div class="navbar-item">
         <div class="buttons">
           <a class="button is-primary" href="/">
@@ -75,7 +69,7 @@
           </a>
         </div>
       </div>
-    </div>
+    </div> -->
   </div>
       </nav>
     </div>
@@ -97,18 +91,18 @@
             </ul>
       </aside>
     </div> -->
-    <div id="konten" class="column is-full is-gapless">
+    <div id="konten" class="column is-full is-gapless" >
       <nuxt/>
     </div>
-    <!-- <div class="column has-background-primary is-full">
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>WEABOO PROJECT</strong>
-          </p>
-        </div>
-        </footer>
-  </div> -->
+    <div class="column is-full" style="background: transparent;">
+    <footer class="footer">
+  <div class="content has-text-centered">
+    <p>
+      <strong>Weaboo Project</strong> <br> <br><a href="https://jgthms.com"><strong>from Project of Weaboo</strong></a>
+    </p>
+  </div>
+</footer>
+  </div>
 </div>
 </div>
 </template>
@@ -180,14 +174,16 @@ align:right;
 
 }
 .footer{
-  position: fixed;
-  bottom: 0;
+  position: static;
   align-content: center;
-  width: 100%;
+  width: auto;
+  background:transparent;
 }
-
-#konten {
-  size: auto;
+.column {
+  background: transparent;
+  padding:0mm;
 }
-
+.navbar{
+  background: transparent;
+}
 </style>
