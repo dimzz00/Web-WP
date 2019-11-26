@@ -1,25 +1,34 @@
 <template>
 <div class="container">
-  <div class="columns1 is-multiline is-fullheight ">
+  <div class="columns1 is-multiline ">
     <div class="column3 is-full">
       <div class="tabs">
         <ul>
-          <li :class="'tablink ' + (activeTabs == 'pictures') ? 'is-active' : ''" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
-          <li :class="'tablink ' + (activeTabs == 'Musics') ? 'is-active' : ''" @click="activeTabs = 'Musics'"><a>Musics</a></li>
-          <li :class="'tablink ' + (activeTabs == 'video') ? 'is-active' : ''" @click="activeTabs = 'video'"><a>Video</a></li>
+          <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
+          <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Musics</a></li>
+          <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>Video</a></li>
         </ul>
       </div>
       <div class="content">
         <div class="column3 is-full">
           <div v-if="activeTabs == 'pictures'" >
             <h3 class="is-three">Pictures</h3>
-            <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-              kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-              kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
-            </p>
+              <figure class="image is-128x128">
+                <img src="ananta.png">
+              </figure>
           </div>
           <div v-if="activeTabs == 'video'" >
             <h3 class="is-three">Videos</h3>
+            <figure class="video">
+              <iframe
+              width="720"
+              height="480"
+              src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
+              frameborder="0"
+              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+              allowfullscreen>
+              </iframe>
+            </figure>
           </div>
           <div v-if="activeTabs == 'Musics'" >
             <h3 class="is-three">Musics</h3>
@@ -61,6 +70,7 @@ export default {
 </script>
 
 <style>
+
 .container {
   background-image: url("punggung.jpg");
   background-position: 97% 100%;
@@ -99,17 +109,26 @@ export default {
   padding-top: 15px;
 }
 .tabs{
-  background-color: lightgray;
+  background : rgb(135, 206, 235, 0.3);
   /* background-size:contain;
   position: relative;
   top : 50%; */
 }
-.columns1{
-  /* opacity: 50%; */
+
+div .tabs a {
+  font-weight: bold;
+  color: #000000;
+}
+div .columns1 {
+  background: rgb(135, 206, 235, 0.3);
+  width: 95%;
+  position: static;
+  opacity: ;
 }
 
-.column3{
-  background-color: lightgray;
+div .columns1 h3 {
+  font-weight: bold;
+  color: #000000;
 }
 
 /* .TContent{
