@@ -19,7 +19,7 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -27,7 +27,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-   background-image: url(Gio.jpg);
+   background-image: url('/Gio.jpg');
     background-size: cover;
     background-attachment: fixed;
 }

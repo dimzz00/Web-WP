@@ -1,8 +1,8 @@
 <template>
 <div>
-  <div class="columns is-multiline is-fullheight" >
-    <div class="column is-full">
-      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation">
+  <div class="columns is-multiline is-fullheight is-0" id="face" >
+    <div class="column">
+      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation" style="margin-top:0px">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
             <p><strong>W.P</strong></p>
@@ -21,9 +21,29 @@
        <a class="navbar-item" href="/History">
         History
       </a>
-       <a class="navbar-item" href="http://youtube.com">
-        Kita
-      </a>
+        <div class="navbar-item has-dropdown is-hoverable">
+        <a class="navbar-link">
+          Kita
+        </a>
+
+        <div class="navbar-dropdown">
+          <a class="navbar-item" href="/kita1">
+            iChi
+          </a>
+          <a class="navbar-item" href="/kita2">
+            Sam
+          </a>
+          <a class="navbar-item" href="/kita3">
+            samID
+          </a>
+          <a class="navbar-item" href="/kita4">
+            Ananta
+          </a>
+          <a class="navbar-item" href="/kita5">
+            GiO
+          </a>
+        </div>
+      </div>
       <a class="navbar-item" href="http://youtube.com">
         YT
       </a>
@@ -38,7 +58,7 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item">
+          <a class="navbar-item" href="/media">
             Media
           </a>
           <a class="navbar-item">
@@ -59,7 +79,7 @@
   </div>
       </nav>
     </div>
-    <div class="column has-background-primary is-one-fifth is-sidebar-menu is-hidden-mobile"  >
+    <!-- <div class="column has-background-primary is-one-fifth is-sidebar-menu is-hidden-mobile"  >
       <aside class="menu ">
         <ul class="menu-list">
           <li><a href="/about">Profile</a></li>
@@ -67,20 +87,20 @@
            <li>
             <a>kita</a>
             <ul>
-              <li><a href="/kita1">iCHi</a></li>
-              <li><a href="/kita2">Sam</a></li>
-              <li><a href="/kita3">samID</a></li>
-              <li><a href="/kita4">Ananta</a></li>
-              <li><a href="/kita5">GiO</a></li>
+              <li><nuxt-link to="/kita1">ichi</nuxt-link></li>
+              <li><nuxt-link to="/kita2">sam</nuxt-link></li>
+              <li><nuxt-link to="/kita3">samid</nuxt-link></li>
+              <li><nuxt-link to="/kita4">ananta</nuxt-link></li>
+              <li><nuxt-link to="/kita5">gio</nuxt-link></li>
             </ul>
             </li>
             </ul>
       </aside>
-    </div>
-    <div id="konten" class="column is-four-fifth is-vertical is-fullwidth">
+    </div> -->
+    <div id="konten" class="column is-full is-gapless">
       <nuxt/>
     </div>
-    <div class="column has-background-primary is-full">
+    <!-- <div class="column has-background-primary is-full">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -88,12 +108,14 @@
           </p>
         </div>
         </footer>
-  </div>
+  </div> -->
 </div>
 </div>
 </template>
-
 <style>
+
+</style>
+<style scoped>
 html {
   font-family: 'Source Sans Pro', -apple-system, BlinkMacSystemFont, 'Segoe UI',
     Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -109,7 +131,7 @@ html {
 *,
 *:before,
 *:after {
-  box-sizing: border-box;
+  box-sizing:content-box;
   margin: 0;
 }
 
@@ -150,8 +172,12 @@ html {
 }
 
 .navbar{
-  position: fixed;
+  position:sticky;
   width: 100%;
+}
+.navbar-end{
+align:right;
+
 }
 .footer{
   position: fixed;
@@ -159,7 +185,9 @@ html {
   align-content: center;
   width: 100%;
 }
-.konten {
-  background-image: url()
+
+#konten {
+  size: auto;
 }
+
 </style>
