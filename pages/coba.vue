@@ -43,7 +43,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(back1.jpg);
+  background-image: url('/back1.jpg');
   background-size:cover;
 }
 
