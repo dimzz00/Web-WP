@@ -1,14 +1,17 @@
 <template>
-    <div class="container">
+    <div class="container2">
      <div class="content">
         <p class="title">SongList</p>
         <ol>
-       <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">lisa</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">babymetal</a><br></li>
-        <li class="subtitle"> <a class="subtitle">sayuri</a><br></li>
-        <li class="subtitle"> <a class="subtitle">fhana</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">machiko</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">manami numakura</a><br></li>
+       <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">LiSA - Catch The Moment</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">Babymetal - Megitsune</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">Babymetal - Akatsuki</a><br></li>
+        <li class="subtitle"> <a class="subtitle">Sayuri - Heikousen</a><br></li>
+        <li class="subtitle"> <a class="subtitle">fhàna - Aozora No Rhapsody</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">Machiko - Tomorrow</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">Manami Numakura - Climber's High</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">Wagakki - Senbonzakura</a><br></li>
+
         </ol>
     </div>
     </div>
@@ -25,13 +28,13 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container2 {
   margin: 0 auto;
-  min-height: 100vh;
+  min-height: 10vh;
   display: flex;
   justify-content: center;
   text-align: center;
-   background-image: url('/punggung.png');
+   background-image: url('/back2.png');
     background-size: cover;
     background-attachment: fixed;
 }
@@ -46,6 +49,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
+    top: 5%;
 }
 
 .subtitle {

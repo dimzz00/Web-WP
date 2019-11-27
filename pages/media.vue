@@ -1,5 +1,7 @@
 <template>
-    <div class="container">
+<section class="hero is-info">
+  <div class="hero-body">
+    <div class="container2">
       <div class="columns1 is-multiline">
         <div class="column3 is-full">
           <div class="tabs">
@@ -91,6 +93,8 @@
         </div>
       </div>
     </div>
+    </div>
+    </section>
 </template>
 
 <script>
@@ -122,24 +126,14 @@ export default {
 </script>
 
 <style scoped>
-.my-modal {
-  margin: 0 auto;
+.container2 {
+  margin: center;
   min-height: 100vh;
   display: flex;
   justify-content:center;
   align-items: center;
-  background-image: url('/back2.png');
-  background-size:cover;
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-}
-.container {
-  margin: 0 auto;
-  min-height: 100vh;
-  display: flex;
-  justify-content:center;
-  align-items: center;
-  background-image: url('/back2.png');
+  text-align:center;
+  background-image: url('/back5.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -151,14 +145,14 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: White;
   letter-spacing: 1px;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
 }
@@ -175,10 +169,11 @@ export default {
 
 div .tabs a {
   font-weight: bold;
-  color: #000000;
+  color: white;
 }
 div .columns1 {
   background: rgb(135, 206, 235, 0.3);
+  filter:blur(5);
   width: 95%;
   position: static;
 }

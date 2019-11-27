@@ -1,5 +1,5 @@
 <template>
-   <div class="container">
+   <div class="container2">
    <div class="content">
        <p class="title"><strong>Sejarah perwibuaan</strong></p>
        <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
@@ -19,13 +19,12 @@ export default {
 }
 </script>
 
-<style>
-.container {
+<style scoped>
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content:center;
-  align-items: center;
   text-align:center;
   background-image: url('/punggung.png');
   background-size:cover;
@@ -41,6 +40,7 @@ export default {
   font-size: 100px;
   color:white;
   letter-spacing: 1px;
+  padding-top: 10%;
 }
 
 .subtitle {

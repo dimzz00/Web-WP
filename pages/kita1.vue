@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container2">
      <div class="content">
         <p class="title">iCHi</p>
         <p class="subtitle">Jadi Wibu Setengah-Setengah</p>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;

@@ -59,7 +59,7 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid turquoise;
+  border: 1px solid white;
   color: white;
   text-decoration: none;
   padding: 10px 30px;
@@ -73,8 +73,8 @@ html {
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid pink;
-  color: white;
+  border: 1px solid white;
+  color:white;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -95,7 +95,7 @@ html {
 .navbar{
   position: fixed;
 }
-.footer:scope{
+.footer{
   position: fixed;
   bottom: 0;
   align-content: center;
@@ -104,6 +104,7 @@ html {
 .container3 {
   background-image: url('/punggung.jpg');
   background-size: cover;
+  background-attachment:local;
   background-repeat: no-repeat;
   color: white;
 }

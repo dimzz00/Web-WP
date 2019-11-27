@@ -1,8 +1,12 @@
 <template>
-   <div class="container">
+   <div class="container2">
       <div class="content">
-        <p class="title">Weaboo.Project.</p><br>
-        <p class="subtitle">wibu project sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
+        <p class="title">Weaboo.<br>Project.</p><br>
+        <p class="subtitle">Weaboo Project sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
+        <p class="subtitle">Selama 2 tahun terakhir, Weaboo Project sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
+        <img src="" alt="">
+        <p class="subtitle">Weaboo project memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
+        <p class="subtitle">Karena Weaboo Project dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
         </div>
   </div>
 </template>
@@ -17,17 +21,17 @@ export default {
 }
 </script>
 
-<style>
-.container {
+<style scoped>
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content: center;
-  align-items: center;
-  text-align: center;
+  text-align: left;
   background-image: url('/back3.png');
   background-size: cover;
   background-attachment: fixed;
+  padding-bottom: 10%;
 }
 
 .title {
@@ -35,21 +39,24 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 100px;
+  font-size: 85px;
   color: white;
   letter-spacing: 1px;
+  padding-top: 10%;
+  padding-left: 10%;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 42px;
+  font-size: 30px;
   color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
+  padding-left: 10%;
+  padding-right: 10%;
 }
 
 .links {
   padding-top: 15px;
 }
-
 </style>

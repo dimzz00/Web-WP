@@ -1,5 +1,5 @@
 <template>
-    <div class="container">
+    <div class="container2">
      <div class="content">
         <p class="title">samID</p>
         <p class="subtitle">Setengah Wibu setengah WIBU</p>
@@ -26,7 +26,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
