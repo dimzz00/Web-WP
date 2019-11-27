@@ -1,12 +1,14 @@
 <template>
   <div class="container2">
     <div>
-      <h1 class="title">
+      <div class="content">
+         <h1 class="title">
         Weaboo. Project.
       </h1>
       <p class="subtitle">
         #MakeWeabooGreatAgain
       </p>
+      </div>
       <div class="links">
         <nuxt-link
           to="/about"
@@ -22,7 +24,7 @@
         </nuxt-link>
       </div>
        <!-- <div class="linksMedia">
-       <a class="button--green" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
+       <a class="button--green" href="https://www.instagram.com/weabooproject/"><i class="fab fa-youtube"></i><strong>IG</strong> </a>
         <a class="button--grey" href="http://youtube.com"> <strong>YT</strong></a>
       </div> -->
     </div>
@@ -73,11 +75,16 @@ export default {
   top:40%;
   left:5.5%;
 }
-/* .linksMedia {
+.linksMedia {
   padding-top: 15px;
   position: fixed;
   top:10%;
   left:83%;
   display: flex;
-} */
+}
+
+.content {
+  margin-top: 10%;
+  margin-left: 10%;
+}
 </style>
