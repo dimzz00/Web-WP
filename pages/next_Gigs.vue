@@ -2,7 +2,7 @@
   <div class="container2">
     <div>
       <h1 class="title_NG">
-        Comming soon
+        Coming soon
       </h1>
       <h2 class="subtitle_NG">
         "Next Update"
@@ -40,6 +40,9 @@ export default {
   min-height: 100vh;
   display: flex;
   align-items: center;
+    background-image: url('/back4.png');
+    background-size: cover;
+    background-attachment: fixed;
 }
 
 .title_NG {
@@ -47,8 +50,8 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 150px;
-  color: #35495e;
+  font-size: 100px;
+  color: white;
   letter-spacing: 1px;
   position: fixed;
   left: 40%;
@@ -57,8 +60,8 @@ export default {
 
 .subtitle_NG {
   font-weight: 300;
-  font-size: 75px;
-  color: #526488;
+  font-size: 30px;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
   position: fixed;

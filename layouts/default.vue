@@ -15,11 +15,11 @@
           </div>
           <div id="navbarBasicExample" class="navbar-menu">
     <div class="navbar-start">
-       <a class="navbar-item" href="/about">
-        Profile
+       <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
       </a>
-       <a class="navbar-item" href="/History">
-        History
+       <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
+      </a>
+       <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
       </a>
         <div class="navbar-item has-dropdown is-hoverable">
         <a class="navbar-link">
@@ -50,11 +50,9 @@
         </a>
 
         <div class="navbar-dropdown">
-          <a class="navbar-item" href="/media">
-            <strong>Media</strong>
+          <a class="navbar-item"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
           </a>
-          <a class="navbar-item" href="/SongList">
-            <strong>Song List</strong>
+          <a class="navbar-item"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
           </a>
           <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
         <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
@@ -76,7 +74,7 @@
     <div class="column is-full">
       <nuxt/>
     </div>
-    <div class="column has-background-primary">
+    <div class="column has-background-primary ">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -151,18 +149,18 @@ html {
   position:sticky;
   width: 100%;
 }
-
+a{
+  color: #35495e;
+}
 .footer{
   bottom: 0;
   align-content: center;
   width: auto;
-  background:transparent;
+  justify-content: center;
+  text-align:center;
 }
 .column {
   background: transparent;
   padding:0mm;
-}
-.navbar{
-  background: transparent;
 }
 </style>

@@ -1,5 +1,5 @@
 <template>
-<div class="container">
+<div class="container2">
      <div class="content">
         <p class="title">Sam</p>
         <p class="subtitle">Setengah Wibu. Setengah maS-maS biasa</p>
@@ -21,7 +21,7 @@ export default {
 
 <style scoped>
 
-.container {
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;

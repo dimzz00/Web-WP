@@ -2,11 +2,11 @@
   <div class="container2">
     <div>
       <h1 class="title">
-        Weaboo Project
+        Weaboo. Project.
       </h1>
-      <h2 class="subtitle">
+      <p class="subtitle">
         #MakeWeabooGreatAgain
-      </h2>
+      </p>
       <div class="links">
         <nuxt-link
           to="/about"
@@ -21,6 +21,10 @@
           Media
         </nuxt-link>
       </div>
+       <!-- <div class="linksMedia">
+       <a class="button--green" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
+        <a class="button--grey" href="http://youtube.com"> <strong>YT</strong></a>
+      </div> -->
     </div>
   </div>
 </template>
@@ -35,12 +39,12 @@ export default {
 }
 </script>
 
-<style>
+<style scoped>
 .container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
-  align-items: center;
+  align-items: left;
 }
 
 .title {
@@ -48,20 +52,18 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: bold;
   font-size: 100px;
-  color: #35495e;
+  color: white;
   letter-spacing: 1px;
-  position: fixed;
   left: 15%;
   top: 26%;
 }
 
 .subtitle {
   font-weight: 300;
-  font-size: 65px;
-  color: #526488;
+  font-size: 30px;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
-  position: fixed;
   left: 18%;
 }
 
@@ -69,6 +71,13 @@ export default {
   padding-top: 15px;
   position: fixed;
   top:40%;
-  left:55%;
+  left:5.5%;
 }
+/* .linksMedia {
+  padding-top: 15px;
+  position: fixed;
+  top:10%;
+  left:83%;
+  display: flex;
+} */
 </style>

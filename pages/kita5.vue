@@ -1,9 +1,9 @@
 <template>
-<div class="container">
+<div class="container2">
      <div class="content">
         <p class="title">Gio</p>
         <p class="subtitle">Setengah Wibu setengah Normal</p>
-         <iframe class="yt" width="540" height="360" src="https://www.youtube.com/embed/videoseries?list=PLw-LNUHX2AEj9VutIAJb2g_PTDGg7ddTI">
+         <iframe class="yt" width="cover" height="cover" src="https://www.youtube.com/embed/videoseries?list=PLw-LNUHX2AEj9VutIAJb2g_PTDGg7ddTI">
         </iframe>
     </div>
     </div>
@@ -20,7 +20,7 @@ export default {
 </script>
 
 <style scoped>
-.container {
+.container2 {
   margin: 0 auto;
   min-height: 100vh;
   display: flex;
