@@ -25,7 +25,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(back3.png);
+  background-image: url('/back3.png');
   background-size: cover;
   background-attachment: fixed;
 }
@@ -51,7 +51,5 @@ export default {
 .links {
   padding-top: 15px;
 }
-.column{
 
-}
 </style>

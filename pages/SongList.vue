@@ -31,7 +31,7 @@ export default {
   display: flex;
   justify-content: center;
   text-align: center;
-   background-image: url(punggung.png);
+   background-image: url('/punggung.png');
     background-size: cover;
     background-attachment: fixed;
 }

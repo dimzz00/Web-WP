@@ -1,6 +1,4 @@
 <template>
-<section class="hero is-info">
-  <div class="hero-body">
     <div class="container">
       <div class="columns1 is-multiline">
         <div class="column3 is-full">
@@ -17,15 +15,36 @@
                 <h3 class="is-three">Pictures</h3>
                   <div class="columns is-0 is-multiline is-mobile">
                     <div class="column is-one-quarter-desktop is-half-tablet">
-                          <figure class="image is-2by1">
-                            <img src="https://unsplash.it/300/200/?random&pic=3">
-                          </figure>
+                      <figure class="image is-2by1" @click="modalPict == 'ichi'">
+                        <img src="ichi.png">
+                      </figure>
                     </div>
                     <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class="image is-2by1">
-                        <img src="ananta.png">
+                      <figure class='image is-2by1' @click="modalPict == 'ananta'">
                         <img src="ananta.png">
                       </figure>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-half-tablet">
+                      <figure class="image is-2by1" @click="modalPict == 'gio'">
+                        <img src="Gio.jpg">
+                      </figure>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-half-tablet">
+                      <figure class="image is-2by1" @click="modalPict == 'sam'">
+                        <img src="sam.png">
+                      </figure>
+                    </div>
+                    <div class="column is-one-quarter-desktop is-half-tablet">
+                      <figure class="image is-2by1" @click="modalPict == 'samid'">
+                        <img src="samid.png">
+                      </figure>
+                    </div>
+                    <div>
+                    <my-modal v-if="modalPict == 'ichi'">
+                      <figure class="image">
+                        <img src="ichi.png">
+                      </figure>
+                    </my-modal>
                     </div>
                   </div>
               </div>
@@ -54,14 +73,13 @@
         </div>
       </div>
     </div>
-</div>
-</section>
 </template>
 
 <script>
 export default {
   data () {
     return {
+      modalPict: '',
       activeTabs: 'pictures'
     }
   },
@@ -84,14 +102,24 @@ export default {
 </script>
 
 <style scoped>
-.container {
-  margin: center;
+.my-modal {
+  margin: 0 auto;
   min-height: 100vh;
   display: flex;
   justify-content:center;
   align-items: center;
-  text-align:center;
-  background-image: url(back2.png);
+  background-image: url('/back2.png');
+  background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.container {
+  margin: 0 auto;
+  min-height: 100vh;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+  background-image: url('/back2.png');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;

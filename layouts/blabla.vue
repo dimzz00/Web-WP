@@ -102,7 +102,7 @@ html {
   width: 100%;
 }
 .container3 {
-  background-image: url("./punggung.jpg");
+  background-image: url('/punggung.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   color: white;

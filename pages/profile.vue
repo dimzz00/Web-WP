@@ -24,7 +24,7 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url(punggung.jpg);
+  background-image: url('/punggung.jpg');
   background-size: cover;
 }
 
