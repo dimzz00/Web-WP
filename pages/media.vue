@@ -1,6 +1,4 @@
 <template>
-<section class="hero is-info">
-  <div class="hero-body">
     <div class="container2">
       <div class="columns1 is-multiline">
         <div class="column3 is-full">
@@ -63,13 +61,6 @@
               </div>
               <div v-if="activeTabs == 'video'" >
                 <h3 class="is-three">Yusup Playlist WP</h3>
-                <portal to="destination">
-                  <p>This slot content will be rendered wherever the with name 'destination' is  located.</p>
-                </portal>
-                <portal-target name="destination">
-                  This component can be located anywhere in your App.
-                  The slot content of the above portal component will be rendered here.
-                </portal-target>
                 <figure class="video">
                   <iframe
                   width="720"
@@ -93,8 +84,6 @@
         </div>
       </div>
     </div>
-    </div>
-    </section>
 </template>
 
 <script>
