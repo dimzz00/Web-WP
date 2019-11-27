@@ -25,7 +25,7 @@
   </div>
 </template>
 
-<script>
+<script scoped>
 // import Logo from '~/components/Logo.vue'
 
 export default {
@@ -42,7 +42,6 @@ export default {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background-image: url('/back1.jpg');
   background-size:cover;
 }
 
