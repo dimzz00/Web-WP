@@ -204,7 +204,9 @@ div .columns1 h3 {
 }
 
 div #slider { overflow: hidden; }
+
 div #slider figure img { width: 20%; float: left; }
+
 div #slider figure {
   position: relative;
   width: 500%;
