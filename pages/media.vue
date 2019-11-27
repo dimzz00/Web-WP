@@ -4,20 +4,31 @@
         <div class="column3 is-full">
           <div class="tabs">
             <ul>
-              <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Pictures</a></li>
-              <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Musics</a></li>
-              <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>Video</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Gambar</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Lagu</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>YuSup PlayList</a></li>
             </ul>
           </div>
           <div class="content">
             <div class="column">
               <div v-if="activeTabs == 'pictures'" >
-                <h3 class="is-three">Pictures</h3>
-                  <div class="columns is-0 is-multiline is-mobile">
+                <h3 class="is-three">Gambar's</h3>
+                  <div id="slider">
+                    <figure>
+                      <img src="ichi.png" alt="">
+                      <img src="ananta.png" alt="">
+                      <img src="Gio.jpg" alt="">
+                      <img src="sam.png" alt="">
+                      <img src="samid.png" alt="">
+                    </figure>
+                  </div>
+                  <!-- <div class="columns is-0 is-multiline is-mobile">
                     <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class="image is-2by1" @click="modalPict == 'ichi'">
-                        <img src="ichi.png">
-                      </figure>
+                      <div class="tabPict" @click="modalPict == 'ichi'">
+                        <figure class="image is-2by1">
+                          <img src="ichi.png">
+                        </figure>
+                      </div>
                     </div>
                     <div class="column is-one-quarter-desktop is-half-tablet">
                       <figure class='image is-2by1' @click="modalPict == 'ananta'">
@@ -46,10 +57,17 @@
                       </figure>
                     </my-modal>
                     </div>
-                  </div>
+                  </div> -->
               </div>
               <div v-if="activeTabs == 'video'" >
-                <h3 class="is-three">Videos</h3>
+                <h3 class="is-three">Yusup Playlist WP</h3>
+                <portal to="destination">
+                  <p>This slot content will be rendered wherever the with name 'destination' is  located.</p>
+                </portal>
+                <portal-target name="destination">
+                  This component can be located anywhere in your App.
+                  The slot content of the above portal component will be rendered here.
+                </portal-target>
                 <figure class="video">
                   <iframe
                   width="720"
@@ -77,12 +95,14 @@
 
 <script>
 export default {
+
   data () {
     return {
       modalPict: '',
       activeTabs: 'pictures'
     }
   },
+
   methods: {
     openTab (event, tabId) {
       // console.log(event.target)
@@ -175,4 +195,28 @@ div .columns1 h3 {
 /* #Pictures{
   display : block;
 } */
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div #slider { overflow: hidden; }
+div #slider figure img { width: 20%; float: left; }
+div #slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
+}
 </style>

@@ -3,7 +3,13 @@
      <div class="content">
         <p class="title">samID</p>
         <p class="subtitle">Setengah Wibu setengah WIBU</p>
-        <iframe class="yt" width="540" height="360" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6">
+        <iframe
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/videoseries?list=PLwsQ6fwvIIxO35gnAn7ImIbtjt32g0-Cg"
+        frameborder="0"
+        allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen>
         </iframe>
     </div>
     </div>
