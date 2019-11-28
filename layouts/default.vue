@@ -2,65 +2,64 @@
 <div>
   <div class="columns is-multiline is-fullheight is-0" id="face" >
     <div class="column is-full">
-      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation" style="margin-top:0px">
+      <nav class="navbar is-fullwidth is-dark" role="navigation" aria-label="main navigation" style="margin-top:0px">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <p><strong>W.P</strong></p>
+            <p><strong></strong></p>
+            <img src="/WP1.png" alt="WP" class="logo">
           </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          </a>
+          <div class="menu-toggle" >
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
           </div>
-          <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-       <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
-      </a>
-       <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
-      </a>
-       <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
-      </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Kita
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
-          </a>
         </div>
-      </div>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Lain-lain
-        </a>
+      <div id="navbarBasicExample" class="navbar-menu">
+        <div class="navbar-start">
+          <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
+            </a>
+           <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
+            </a>
+           <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
+            </a>
+           <div class="navbar-item has-dropdown is-hoverable">
+           <a class="navbar-link">Kita
+            </a>
+            <div class="navbar-dropdown">
+              <a class="navbar-item">
+                <nuxt-link to="/personil/ichi" style="color: black"><strong>iCHi</strong></nuxt-link>
+              </a>
+              <a class="navbar-item">
+                <nuxt-link to="/personil/sam" style="color: black"><strong>Sam</strong></nuxt-link>
+              </a>
+              <a class="navbar-item">
+                <nuxt-link to="/personil/samid" style="color: black"><strong>samID</strong></nuxt-link>
+              </a>
+              <a class="navbar-item">
+                <nuxt-link to="/personil/ananta" style="color: black"><strong>Ananta</strong></nuxt-link>
+              </a>
+              <a class="navbar-item">
+                <nuxt-link to="/personil/gio" style="color: black"><strong>GiO</strong></nuxt-link>
+              </a>
+            </div>
+               </div>
+              <div class="navbar-item has-dropdown is-hoverable">
+              <a class="navbar-link">
+                Lain-lain
+              </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
-          </a>
-          <a class="navbar-item"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
-          </a>
-          <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
-        <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="navbar-end">
-      <div class="navbar-item">
+              <div class="navbar-dropdown">
+                <a class="navbar-item"><nuxt-link to="/media" style="color: black"><strong>Media</strong></nuxt-link>
+                </a>
+                <a class="navbar-item"><nuxt-link to="/SongList" style="color: black"><strong>Song List</strong></nuxt-link>
+                </a>
+                <a class="navbar-item" href="https://www.instagram.com/weabooproject/" style="color: black"> <strong>IG</strong> </a>
+              <a class="navbar-item" href="http://youtube.com" style="color: black"> <strong>YT</strong></a>
+              </div>
+            </div>
+          </div>
+          <!-- <div class="navbar-end">
+            <div class="navbar-item">
         <div class="buttons">
           <a class="button is-primary" href="/">
             <strong>HOME</strong>
@@ -74,7 +73,7 @@
     <div class="column is-full">
       <nuxt/>
     </div>
-    <div class="column has-background-primary ">
+    <!-- <div class="column has-background-primary ">
       <footer class="footer">
         <div class="content has-text-centered">
           <p>
@@ -82,7 +81,7 @@
           </p>
         </div>
         </footer>
-  </div>
+  </div> -->
 </div>
 </div>
 </template>
@@ -150,8 +149,9 @@ html {
   width: 100%;
 }
 a{
-  color: #35495e;
+  color: white;
 }
+
 .footer{
   bottom: 0;
   align-content: center;
@@ -163,4 +163,5 @@ a{
   background: transparent;
   padding:0mm;
 }
+
 </style>
