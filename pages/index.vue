@@ -23,6 +23,11 @@
           Media
         </nuxt-link>
       </div>
+      <!-- <div class="linksMedia">
+        <p>Keep In Touch Here!</p><br>
+        <a href="https://www.youtube.com/channel/UCE66EFZGyV7Jbf1yMO4QwNw" class="button--green">Youtube</a>
+        <a href="https://www.instagram.com/weabooproject/" class="button--green">Instagram</a>
+      </div> -->
        <!-- <div class="linksMedia">
        <a class="button--green" href="https://www.instagram.com/weabooproject/"><i class="fab fa-youtube"></i><strong>IG</strong> </a>
         <a class="button--grey" href="http://youtube.com"> <strong>YT</strong></a>
@@ -76,11 +81,12 @@ export default {
   left:5.5%;
 }
 .linksMedia {
-  padding-top: 15px;
   position: fixed;
-  top:10%;
-  left:83%;
+  justify-content: center;
+  align-items: center;
   display: flex;
+  left: 35%;
+  top: 70%;
 }
 
 .content {

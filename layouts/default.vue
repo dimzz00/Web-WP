@@ -8,11 +8,11 @@
             <p><strong></strong></p>
             <img src="/WP1.png" alt="WP" class="logo">
           </a>
-          <div class="menu-toggle" >
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-            <span aria-hidden="true"></span>
-          </div>
+        <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          <span aria-hidden="true"></span>
+          </a>
         </div>
       <div id="navbarBasicExample" class="navbar-menu">
         <div class="navbar-start">
@@ -163,5 +163,24 @@ a{
   background: transparent;
   padding:0mm;
 }
+.logo{
+  left: 5%;
+}
 
+/* mobile */
+@media (max-width: 769px) {
+
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+
+}
+@media (min-width: 1024px) and (max-width: 1215px) {
+
+}
+@media (min-width: 1216px) and (max-width: 1407px) {
+
+}
+@media (min-width: 1408px) {
+
+  }
 </style>

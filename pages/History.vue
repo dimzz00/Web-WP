@@ -4,7 +4,6 @@
        <p class="title"><strong>Sejarah perwibuaan</strong></p>
        <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
        <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
-
   </div>
   </div>
 </template>
@@ -40,7 +39,7 @@ export default {
   font-size: 85px;
   color:white;
   letter-spacing: 1px;
-  padding-top: 10%;
+  padding-top: 0%;
 }
 
 .subtitle {
@@ -54,4 +53,14 @@ export default {
 .links {
   padding-top: 15px;
 }
+.content{
+  margin-top: 0%;
+}
+
+/* tablet  (xs) */
+@media (max-width: 769px){
+  .title{
+    font-size: 60px;
+  }
+  }
 </style>
