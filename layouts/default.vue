@@ -166,21 +166,4 @@ a{
 .logo{
   left: 5%;
 }
-
-/* mobile */
-@media (max-width: 769px) {
-
-}
-@media (min-width: 769px) and (max-width: 1023px) {
-
-}
-@media (min-width: 1024px) and (max-width: 1215px) {
-
-}
-@media (min-width: 1216px) and (max-width: 1407px) {
-
-}
-@media (min-width: 1408px) {
-
-  }
 </style>
