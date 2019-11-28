@@ -11,53 +11,45 @@
           </div>
           <div class="content">
             <div class="column">
+              <div :class="'modal' + ((activeModal == activeClick) ? ' is-active is-clipped' : '')">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-16by9">
+                    <img :src="personil[activePict]" alt="">
+                  </p>
+                  <h4>{{ personil[activePict] }}</h4>
+                </div>
+                <button class="modal-close is-large" aria-label="close" @click="activeClick = false"></button>
+              </div>
               <div v-if="activeTabs == 'pictures'" >
                 <h3 class="is-three">Gambar's</h3>
-                  <div id="slider">
-                    <figure>
-                      <img src="ichi.png" alt="">
-                      <img src="ananta.png" alt="">
-                      <img src="Gio.jpg" alt="">
-                      <img src="sam.png" alt="">
-                      <img src="samid.png" alt="">
+                <div class="columns is-multiline">
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="ichi.png" alt="" @click="activeClick = true, activePict = 'ichi'">
                     </figure>
                   </div>
-                  <!-- <div class="columns is-0 is-multiline is-mobile">
-                    <div class="column is-one-quarter-desktop is-half-tablet">
-                      <div class="tabPict" @click="modalPict == 'ichi'">
-                        <figure class="image is-2by1">
-                          <img src="ichi.png">
-                        </figure>
-                      </div>
-                    </div>
-                    <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class='image is-2by1' @click="modalPict == 'ananta'">
-                        <img src="ananta.png">
-                      </figure>
-                    </div>
-                    <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class="image is-2by1" @click="modalPict == 'gio'">
-                        <img src="Gio.jpg">
-                      </figure>
-                    </div>
-                    <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class="image is-2by1" @click="modalPict == 'sam'">
-                        <img src="sam.png">
-                      </figure>
-                    </div>
-                    <div class="column is-one-quarter-desktop is-half-tablet">
-                      <figure class="image is-2by1" @click="modalPict == 'samid'">
-                        <img src="samid.png">
-                      </figure>
-                    </div>
-                    <div>
-                    <my-modal v-if="modalPict == 'ichi'">
-                      <figure class="image">
-                        <img src="ichi.png">
-                      </figure>
-                    </my-modal>
-                    </div>
-                  </div> -->
+                  <div class="column is-one-third">
+                     <figure class="is-2by1">
+                      <img src="ananta.png" alt=""  @click="activeClick = true, activePict = 'ananta'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="Gio.jpg" alt=""  @click="activeClick = true, activePict = 'gio'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="sam.png" alt=""  @click="activeClick = true, activePict = 'sam'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="samid.png" alt=""  @click="activeClick = true, activePict = 'samid'">
+                    </figure>
+                  </div>
+                </div>
               </div>
               <div v-if="activeTabs == 'video'" >
                 <h3 class="is-three">Yusup Playlist WP</h3>
@@ -88,33 +80,27 @@
 
 <script>
 export default {
-
   data () {
     return {
-      modalPict: '',
-      activeTabs: 'pictures'
-    }
-  },
-
-  methods: {
-    openTab (event, tabId) {
-      // console.log(event.target)
-    //   const tabcontent = document.getElementsByClassName('TContent')
-    //   for (let i = 0; i < tabcontent.length; i++) {
-    //     tabcontent[i].style.display = 'none'
-    //   }
-    // const tablink = document.getElementsByClassName('tablink')
-    // for (let i = 0; i < tablink.length; i++) {
-    //   tablink[i].className = tablink[i].className.replace(' is-active', '')
-    // }
-    // document.getElementById(tabId).style.display = 'block'
-    // event.currentTarget.className += 'is-active'
+      activePict: '',
+      saus: '',
+      activeModal: true,
+      activeClick: false,
+      activeTabs: 'pictures',
+      personil: {
+        sam: '/ichi.png',
+        ichi: '/ichi.png',
+        ananta: '/ichi.png',
+        gio: '/ichi.png',
+        samid: '/ichi.png'
+      }
     }
   }
 }
 </script>
 
 <style scoped>
+
 .container2 {
   margin: center;
   min-height: 100vh;

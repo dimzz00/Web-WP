@@ -1,48 +1,117 @@
 <template>
-  <div class="container">
-    <div>
-      <h1 class="title">
-        Weaboo Project
-      </h1>
-      <h2 class="subtitle">
-        "Make Weaboo Great Again"
-      </h2>
-      <div class="links">
-        <nuxt-link
-          to="/about"
-          class="button--green"
-        >
-          About
-        </nuxt-link>
-        <a
-          href=""
-          target="_blank"
-          class="button--grey"
-        >
-        </a>
+    <div class="container2">
+      <div class="columns1 is-multiline">
+        <div class="column3 is-full">
+          <div class="tabs">
+            <ul>
+              <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Gambar</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Lagu</a></li>
+              <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>YuSup PlayList</a></li>
+            </ul>
+          </div>
+          <div class="content">
+            <div class="column">
+              <div :class="'modal' + ((activeModal == activeClick) ? ' is-active is-clipped' : '')">
+                <div class="modal-background"></div>
+                <div class="modal-content">
+                  <p class="image is-16by9">
+                    <img :src="personil[activePict]" alt="">
+                  </p>
+                  <h4>{{ personil[activePict] }}</h4>
+                </div>
+                <button class="modal-close is-large" aria-label="close" @click="activeClick = false"></button>
+              </div>
+              <div v-if="activeTabs == 'pictures'" >
+                <h3 class="is-three">Gambar's</h3>
+                <div class="columns is-multiline">
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="ichi.png" alt="" @click="activeClick = true, activePict = 'ichi'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                     <figure class="is-2by1">
+                      <img src="ananta.png" alt=""  @click="activeClick = true, activePict = 'ananta'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="Gio.jpg" alt=""  @click="activeClick = true, activePict = 'gio'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="sam.png" alt=""  @click="activeClick = true, activePict = 'sam'">
+                    </figure>
+                  </div>
+                  <div class="column is-one-third">
+                    <figure class="is-2by1">
+                      <img src="samid.png" alt=""  @click="activeClick = true, activePict = 'samid'">
+                    </figure>
+                  </div>
+                </div>
+              </div>
+              <div v-if="activeTabs == 'video'" >
+                <h3 class="is-three">Yusup Playlist WP</h3>
+                <figure class="video">
+                  <iframe
+                  width="720"
+                  height="480"
+                  src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
+                  frameborder="0"
+                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                  allowfullscreen>
+                  </iframe>
+                </figure>
+              </div>
+              <div v-if="activeTabs == 'Musics'" >
+                <h3 class="is-three">Musics</h3>
+                <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
+                  kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
+                  kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-  </div>
 </template>
 
-<script scoped>
-// import Logo from '~/components/Logo.vue'
-
+<script>
 export default {
-  components: {
+  data () {
+    return {
+      activePict: '',
+      saus: '',
+      activeModal: true,
+      activeClick: false,
+      activeTabs: 'pictures',
+      personil: {
+        sam: '/ichi.png',
+        ichi: '/ichi.png',
+        ananta: '/ichi.png',
+        gio: '/ichi.png',
+        samid: '/ichi.png'
+      }
+    }
   }
 }
 </script>
 
-<style>
-.container {
-  margin: 0 auto;
+<style scoped>
+
+.container2 {
+  margin: center;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
+  justify-content:center;
   align-items: center;
-  text-align: center;
+  text-align:center;
+  background-image: url('/back5.png');
   background-size:cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .title {
@@ -51,27 +120,75 @@ export default {
   display: block;
   font-weight: 300;
   font-size: 100px;
-  color: #35495e;
+  color: White;
   letter-spacing: 1px;
-  position: fixed;
-  left: 15%;
-  top: 33%;
 }
 
 .subtitle {
   font-weight: 300;
   font-size: 42px;
-  color: #526488;
+  color: white;
   word-spacing: 5px;
   padding-bottom: 15px;
-  position: fixed;
-  left: 18%;
 }
 
 .links {
   padding-top: 15px;
-  position: fixed;
-  top:40%;
-  left:60%;
+}
+.tabs{
+  background : rgb(135, 206, 235, 0.3);
+  /* background-size:contain;
+  position: relative;
+  top : 50%; */
+}
+
+div .tabs a {
+  font-weight: bold;
+  color: white;
+}
+div .columns1 {
+  background: rgb(135, 206, 235, 0.3);
+  filter:blur(5);
+  width: 95%;
+  position: static;
+}
+
+div .columns1 h3 {
+  font-weight: bold;
+  color: #000000;
+}
+
+/* .TContent{
+  display : none;
+} */
+
+/* #Pictures{
+  display : block;
+} */
+
+@keyframes slidy {
+0% { left: 0%; }
+20% { left: 0%; }
+25% { left: -100%; }
+45% { left: -100%; }
+50% { left: -200%; }
+70% { left: -200%; }
+75% { left: -300%; }
+95% { left: -300%; }
+100% { left: -400%; }
+}
+
+div #slider { overflow: hidden; }
+
+div #slider figure img { width: 20%; float: left; }
+
+div #slider figure {
+  position: relative;
+  width: 500%;
+  margin: 0;
+  left: 0;
+  text-align: left;
+  font-size: 0;
+  animation: 30s slidy infinite;
 }
 </style>

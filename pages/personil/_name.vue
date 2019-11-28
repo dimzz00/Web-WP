@@ -12,7 +12,7 @@
      <div class="content" v-if="item">
         <p class="title">{{ item.nama }}</p>
         <p class="subtitle">{{ item.data }}</p>
-        <iframe class="yt" width="540" height="360" :src="item.yusup"></iframe>
+        <iframe class="yt" width="720" height="480" :src="item.yusup"></iframe>
     </div>
     </div>
 </template>
