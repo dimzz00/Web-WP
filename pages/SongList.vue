@@ -10,7 +10,7 @@
         <li class="subtitle"> <a class="subtitle">fhàna - Aozora No Rhapsody</a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">Machiko - Tomorrow</a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">Manami Numakura - Climber's High</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">Wagakki - Senbonzakura</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">Wagakki - Senbonzakura</a><br></li>
 
         </ol>
     </div>

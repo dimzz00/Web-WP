@@ -28,19 +28,19 @@
 
         <div class="navbar-dropdown">
           <a class="navbar-item">
-            <nuxt-link to="/kita1"><strong>iCHi</strong></nuxt-link>
+            <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
           </a>
           <a class="navbar-item">
-            <nuxt-link to="/kita2"><strong>Sam</strong></nuxt-link>
+            <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
           </a>
           <a class="navbar-item">
-            <nuxt-link to="/kita3"><strong>samID</strong></nuxt-link>
+            <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
           </a>
           <a class="navbar-item">
-            <nuxt-link to="/kita4"><strong>Ananta</strong></nuxt-link>
+            <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
           </a>
           <a class="navbar-item">
-            <nuxt-link to="/kita5"><strong>GiO</strong></nuxt-link>
+            <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
           </a>
         </div>
       </div>

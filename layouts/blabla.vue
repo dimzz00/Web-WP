@@ -67,7 +67,7 @@ html {
 
 .button--green:hover {
   color: #fff;
-  background-color: white;
+  background-color: #35495e;
 }
 
 .button--grey {
