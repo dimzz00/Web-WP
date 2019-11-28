@@ -75,13 +75,6 @@
       <nuxt/>
     </div>
     <div class="column has-background-primary ">
-      <footer class="footer">
-        <div class="content has-text-centered">
-          <p>
-            <strong>WEABOO PROJECT</strong>
-          </p>
-        </div>
-        </footer>
   </div>
 </div>
 </div>

@@ -17,7 +17,6 @@
                   <p class="image is-16by9">
                     <img :src="personil[activePict]" alt="">
                   </p>
-                  <h4>{{ personil[activePict] }}</h4>
                 </div>
                 <button class="modal-close is-large" aria-label="close" @click="activeClick = false"></button>
               </div>
@@ -55,8 +54,9 @@
                 <h3 class="is-three">Yusup Playlist WP</h3>
                 <figure class="video">
                   <iframe
-                  width="720"
-                  height="480"
+                  class="video"
+                  width="512"
+                  height= "360"
                   src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
                   frameborder="0"
                   allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
@@ -178,17 +178,30 @@ div .columns1 h3 {
 100% { left: -400%; }
 }
 
-div #slider { overflow: hidden; }
-
-div #slider figure img { width: 20%; float: left; }
-
-div #slider figure {
-  position: relative;
-  width: 500%;
-  margin: 0;
-  left: 0;
-  text-align: left;
-  font-size: 0;
-  animation: 30s slidy infinite;
+@media (max-width: 769px) {
+  .container2 {
+  }
+  .video{}
 }
+@media (min-width: 769px) and (max-width: 1023px) {
+  .container2 {
+  }
+  .video{}
+}
+@media (min-width: 1024px) and (max-width: 1215px) {
+  .container2 {
+  }
+  .video{}
+}
+@media (min-width: 1216px) and (max-width: 1407px) {
+  .container2 {
+  }
+  .video{}
+}
+@media (min-width: 1408px) {
+  .container2 {
+  }
+  .video{}
+}
+
 </style>
