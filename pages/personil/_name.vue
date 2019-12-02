@@ -43,7 +43,7 @@ export default {
         gio: {
           nama: 'GiO',
           data: 'Setengah Wibu setengah Normal',
-          background: '/gio.jpg',
+          background: '/gio.png',
           yusup: 'https://www.youtube.com/embed/videoseries?list=PLw-LNUHX2AEj9VutIAJb2g_PTDGg7ddTI'
         },
         samid: {
@@ -71,8 +71,10 @@ export default {
   display: flex;
   justify-content: center;
   align-items: center;
-  text-align: center;
-  background-image: url('/ichi.png')
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: center center;
 }
 
 .title {
@@ -103,5 +105,25 @@ export default {
 }
 .content{
     color: white;
+    align-items: center;
+  text-align: center;
+}
+@media (max-width: 769px){
+.yt{
+  width: 360px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  .yt{
+  width: 360px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
 }
 </style>

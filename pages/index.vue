@@ -3,10 +3,10 @@
     <div>
       <div class="content">
          <h1 class="title">
-        Weaboo. Project.
+        <strong style="color: turquoise">Weaboo.</strong> <strong style="color: pink">Project.</strong>
       </h1>
       <p class="subtitle">
-        #MakeWeabooGreatAgain
+        <strong style="color: turquoise">#MakeWeaboo</strong><strong style="color: pink">GreatAgain</strong>
       </p>
       </div>
       <div class="links">
@@ -58,7 +58,7 @@ export default {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: bold;
-  font-size: 100px;
+  font-size: 85px;
   color: white;
   letter-spacing: 1px;
   left: 15%;
@@ -77,20 +77,57 @@ export default {
 .links {
   padding-top: 15px;
   position: fixed;
-  top:40%;
-  left:5.5%;
+  top:60%;
+  padding-left:7%;
 }
-.linksMedia {
+/* .linksMedia {
   position: fixed;
   justify-content: center;
   align-items: center;
   display: flex;
   left: 35%;
-  top: 70%;
-}
+  top: %;
+} */
 
 .content {
   margin-top: 10%;
   margin-left: 10%;
 }
+
+@media (max-width: 769px){
+  .content {
+    margin-top : 20%;
+  }
+  .subtitle{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 66px;
+    padding-right: 5%;
+  }
+  .links {
+  padding-top: 15px;
+  position: fixed;
+  top:60%;
+  padding-left:10%;
+}
+  }
+  @media (min-width: 769px) and (max-width: 1023px) {
+     .content {
+    margin-top : 20%;
+  }
+    .subtitle{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 70px;
+    padding-right: 5%;
+  }
+  .links {
+  padding-top: 15px;
+  position: fixed;
+  top:60%;
+  padding-left:10%;
+}
+  }
 </style>
