@@ -7,68 +7,73 @@
           <a class="navbar-item" href="/">
             <p><strong>W.P</strong></p>
           </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
+          <a
+          role="button"
+          class="navbar-burger"
+          @click="showNav = !showNav"
+          aria-label="menu"
+          aria-expanded="false"
+          data-target="navbarBasicExample" >
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           <span aria-hidden="true"></span>
           </a>
           </div>
-          <div id="navbarBasicExample" class="navbar-menu">
-    <div class="navbar-start">
-       <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
-      </a>
-       <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
-      </a>
-       <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
-      </a>
-        <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Kita
-        </a>
+          <div id="navbarBasicExample" :class="'navbar-menu' + ((showNav == true) ? ' is-active' : '' )">
+            <div class="navbar-start">
+              <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
+              </a>
+              <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
+              </a>
+              <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
+              </a>
+                <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Kita
+                </a>
 
-        <div class="navbar-dropdown">
-          <a class="navbar-item">
-            <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
-          </a>
-          <a class="navbar-item">
-            <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
-          </a>
-        </div>
-      </div>
-      <div class="navbar-item has-dropdown is-hoverable">
-        <a class="navbar-link">
-          Lain-lain
-        </a>
-
-        <div class="navbar-dropdown">
-          <a class="navbar-item"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
-          </a>
-          <a class="navbar-item"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
-          </a>
-          <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
-        <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
-        </div>
-      </div>
-    </div>
-    <!-- <div class="navbar-end">
-      <div class="navbar-item">
-        <div class="buttons">
-          <a class="button is-primary" href="/">
-            <strong>HOME</strong>
-          </a>
-        </div>
-      </div>
-    </div> -->
-  </div>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item">
+                    <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item">
+                    <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item">
+                    <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item">
+                    <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item">
+                    <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
+                  </a>
+                </div>
+              </div>
+              <div class="navbar-item has-dropdown is-hoverable">
+                <a class="navbar-link">
+                  Lain-lain
+                </a>
+                <div class="navbar-dropdown">
+                  <a class="navbar-item"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
+                  </a>
+                  <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
+                <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
+                </div>
+              </div>
+            </div>
+            <!-- <div class="navbar-end">
+              <div class="navbar-item">
+                <div class="buttons">
+                  <a class="button is-primary" href="/">
+                    <strong>HOME</strong>
+                  </a>
+                </div>
+              </div>
+            </div> -->
+          </div>
       </nav>
     </div>
     <div class="column is-full">
@@ -79,6 +84,18 @@
 </div>
 </div>
 </template>
+
+<script>
+export default {
+  data () {
+    return {
+      showNav: false
+    }
+  }
+
+}
+</script>
+
 <style>
 
 </style>
