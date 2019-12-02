@@ -102,7 +102,7 @@ html {
   width: 100%;
 }
 .container3 {
-  background-image: url('/punggung.jpg');
+  background-image: url('/BackFix.png');
   background-size: cover;
   background-attachment:fixed;
   background-repeat: no-repeat;

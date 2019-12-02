@@ -6,7 +6,7 @@
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
             <p><strong></strong></p>
-            <img src="/WP1.png" alt="WP" class="logo">
+            <img src="/wp5.png" alt="WP" class="logo">
           </a>
           <a
           role="button"
@@ -162,6 +162,9 @@ html {
   left:0;
   width: auto;
 }
+.navbar-dropdown{
+  background-color: #3a3a3a;
+}
 
 .navbar{
   position:sticky;
@@ -184,5 +187,11 @@ a{
 }
 .logo{
   left: 5%;
+}
+#navbarBasicExample{
+  background-color: #3a3a3a;
+}
+.navbar-item{
+  background: #3a3a3a;
 }
 </style>

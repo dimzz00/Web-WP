@@ -3,10 +3,10 @@
     <div>
       <div class="content">
          <h1 class="title">
-        Weaboo. Project.
+        <strong style="color: turquoise">Weaboo.</strong> <strong style="color: pink">Project.</strong>
       </h1>
       <p class="subtitle">
-        #MakeWeabooGreatAgain
+        <strong style="color: turquoise">#MakeWeaboo</strong><strong style="color: pink">GreatAgain</strong>
       </p>
       </div>
       <div class="links">
