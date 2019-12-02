@@ -171,7 +171,7 @@ html {
   width: 100%;
 }
 a{
-  color: white;
+  color: pink;
 }
 
 .footer{
