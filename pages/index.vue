@@ -92,24 +92,29 @@ export default {
 .content {
   margin-top: 10%;
   margin-left: 10%;
+  display: block;
 }
 
 @media (max-width: 769px){
   .content {
-    margin-top : 20%;
+    margin-top : 5%;
+    display: block;
   }
   .subtitle{
     font-size: 20px;
   }
   .title{
-    font-size: 66px;
-    padding-right: 5%;
+    font-size: 60px;
+    padding-right: 0%;
+    top: 0%;
   }
   .links {
   padding-top: 15px;
   position: fixed;
   top:60%;
   padding-left:10%;
+  padding-bottom: 0%;
+  display: block;
 }
   }
   @media (min-width: 769px) and (max-width: 1023px) {

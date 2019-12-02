@@ -1,12 +1,12 @@
 <template>
    <div class="container2">
       <div class="content">
-        <p class="title"><strong style="color: turquoise">Weaboo</strong>.<br><strong style="color: pink">Project.</strong></p><br>
-        <p class="subtitle">Weaboo Project sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
-        <p class="subtitle">Selama 2 tahun terakhir, Weaboo Project sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
+        <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
+        <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
+        <p class="subtitle">Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
         <img src="" alt="">
-        <p class="subtitle">Weaboo project memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
-        <p class="subtitle">Karena Weaboo Project dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
+        <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
+        <p class="subtitle">Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
         </div>
         <!-- <p class="subtitle1">#MakeWibuGreatAgain </p> -->
   </div>
@@ -37,12 +37,12 @@ export default {
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
-  display: block;
+    display: block;
   font-weight: 300;
-  font-size: 85px;
-  color: white;
+  font-size: 80px;
+  color:white;
   letter-spacing: 1px;
-  padding-top: 0%;
+  padding-top: 5%;
   padding-left: 10%;
 }
 
@@ -78,7 +78,7 @@ export default {
     font-size: 20px;
   }
   .title{
-    font-size: 66px;
+    font-size: 60px;
     padding-right: 5%;
   }
   }

@@ -77,7 +77,7 @@ export default {
 }
 .content{
     color: white;
-    margin-top:0%;
+    margin-top:5%;
 }
 @media (max-width: 769px){
   .subtitle{

@@ -59,8 +59,8 @@ html {
 .button--green {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid white;
-  color: white;
+  border: 1px solid turquoise;
+  color: pink;
   text-decoration: none;
   padding: 10px 30px;
 }
@@ -73,8 +73,8 @@ html {
 .button--grey {
   display: inline-block;
   border-radius: 4px;
-  border: 1px solid white;
-  color:white;
+  border: 1px solid pink;
+  color:turquoise;
   text-decoration: none;
   padding: 10px 30px;
   margin-left: 15px;
@@ -111,8 +111,45 @@ html {
 }
 
 @media (max-width: 769px){
-
+.button--green {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid turquoise;
+  color: pink;
+  text-decoration: none;
+  padding: 7px 25px;
+  top: 10%;
 }
-@media (min-width: 769px) and (max-width: 1023px) {
+.button--grey {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid pink;
+  color:turquoise;
+  text-decoration: none;
+  padding: 7px 25px;
+  margin-left: 15px;
+  top: 10%;
+}
+}
+@media (min-width: 728px) and (max-width: 300px) {
+  .button--green {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid turquoise;
+  color: pink;
+  text-decoration: none;
+  padding: 7px 25px;
+  top: 10%;
+}
+.button--grey {
+  display: inline-block;
+  border-radius: 2px;
+  border: 1px solid pink;
+  color:turquoise;
+  text-decoration: none;
+  padding: 7px 25px;
+  margin-left: 15px;
+  top: 10%;
+}
 }
 </style>
