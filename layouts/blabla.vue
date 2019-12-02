@@ -104,8 +104,15 @@ html {
 .container3 {
   background-image: url('/punggung.jpg');
   background-size: cover;
-  background-attachment:local;
+  background-attachment:fixed;
   background-repeat: no-repeat;
+  background-position: center center;
   color: white;
+}
+
+@media (max-width: 769px){
+
+}
+@media (min-width: 769px) and (max-width: 1023px) {
 }
 </style>

@@ -8,6 +8,7 @@
         <p class="subtitle">Weaboo project memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
         <p class="subtitle">Karena Weaboo Project dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
         </div>
+        <!-- <p class="subtitle1">#MakeWibuGreatAgain </p> -->
   </div>
 </template>
 
@@ -23,10 +24,9 @@ export default {
 
 <style scoped>
 .container2 {
-  margin: 0 auto;
+  top: 5%;
   min-height: 100vh;
   display: flex;
-  justify-content: center;
   text-align: left;
   background-image: url('/back3.png');
   background-size: cover;
@@ -42,7 +42,7 @@ export default {
   font-size: 85px;
   color: white;
   letter-spacing: 1px;
-  padding-top: 10%;
+  padding-top: 0%;
   padding-left: 10%;
 }
 
@@ -55,7 +55,20 @@ export default {
   padding-left: 10%;
   padding-right: 10%;
 }
-
+.subtitle1 {
+  font-weight: 300;
+  font-size: 15px;
+  color: white;
+  word-spacing: 5px;
+  float: right;
+  padding-top: 70%;
+  padding-right: 10%;
+  display: flex;
+  position:static;
+}
+.content{
+  top:5%;
+}
 .links {
   padding-top: 15px;
 }
