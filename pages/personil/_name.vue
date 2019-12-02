@@ -82,7 +82,7 @@ export default {
   'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   font-weight: 300;
   font-size: 100px;
-  color:white;
+  color:pink;
   letter-spacing: 1px;
   justify-content: center;
   align-items: center;
@@ -92,7 +92,7 @@ export default {
 .subtitle {
   font-weight: 300;
   font-size: 30px;
-  color: white;
+  color: turquoise;
   word-spacing: 5px;
   padding-bottom: 15px;
   justify-content: center;

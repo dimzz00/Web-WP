@@ -1,7 +1,7 @@
 <template>
    <div class="container2">
    <div class="content">
-       <p class="title"><strong>Sejarah perwibuaan</strong></p>
+       <p class="title"><strong style="color: turquoise">Sejarah</strong><br><strong style="color: pink">Perwibuan</strong></p>
        <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
        <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
   </div>

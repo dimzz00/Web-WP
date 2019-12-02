@@ -1,7 +1,7 @@
 <template>
     <div class="container2">
      <div class="content">
-        <p class="title">SongList</p>
+        <p class="title"><strong style="color: turquoise">Song</strong><strong style="color: pink">List</strong></p>
         <ol>
        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">LiSA - Catch The Moment</a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">Babymetal - Megitsune</a><br></li>
