@@ -10,8 +10,8 @@
           </a>
           <a
           role="button"
-          class="navbar-burger"
-          @click="showNav = !showNav"
+          class="navbar-burger is-hoverable"
+          @click="(showNav = !showNav),(drop1 = false),(drop2 = false)"
           aria-label="menu"
           aria-expanded="false"
           data-target="navbarBasicExample" >
@@ -22,46 +22,46 @@
           </div>
           <div id="navbarBasicExample" :class="'navbar-menu' + ((showNav == true) ? ' is-active' : '' )">
             <div class="navbar-start">
-              <a class="navbar-item"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
+              <a class="navbar-item" @click="showNav = false"><nuxt-link to="/about"><strong>Profile</strong></nuxt-link>
               </a>
-              <a class="navbar-item"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
+              <a class="navbar-item" @click="showNav = false"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
               </a>
-              <a class="navbar-item"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
+              <a class="navbar-item" @click="showNav = false"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
               </a>
-                <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
+                <div class="navbar-item has-dropdown is-hoverable" >
+                <a class="navbar-link" @click="drop1 = !drop1">
                   Kita
                 </a>
 
-                <div class="navbar-dropdown">
-                  <a class="navbar-item">
+                <div id="menu_kita" class="navbar-dropdown"  :style="(drop1 == true)? 'display: block' : 'display:  none' ">
+                  <a class='navbar-item' @click="showNav = false">
                     <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" @click="showNav = false">
                     <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" @click="showNav = false">
                     <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" @click="showNav = false">
                     <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item">
+                  <a class="navbar-item" @click="showNav = false">
                     <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
                   </a>
                 </div>
               </div>
               <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link">
+                <a class="navbar-link" @click="drop2 = !drop2">
                   Lain-lain
                 </a>
-                <div class="navbar-dropdown">
-                  <a class="navbar-item"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
+                <div id="menu_lain-lain" class="navbar-dropdown" :style="(drop2 == true)? 'display: block' : 'display:  none'">
+                  <a class="navbar-item" @click="showNav = false"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
+                  <a class="navbar-item" @click="showNav = false"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" href="https://www.instagram.com/weabooproject/"> <strong>IG</strong> </a>
-                <a class="navbar-item" href="http://youtube.com"> <strong>YT</strong></a>
+                  <a class="navbar-item" href="https://www.instagram.com/weabooproject/" @click="showNav = false"> <strong>IG</strong> </a>
+                <a class="navbar-item" href="http://youtube.com" @click="showNav = false"> <strong>YT</strong></a>
                 </div>
               </div>
             </div>
@@ -97,7 +97,9 @@
 export default {
   data () {
     return {
-      showNav: false
+      showNav: false,
+      drop1: false,
+      drop2: false
     }
   }
 
@@ -174,6 +176,13 @@ a{
   color: white;
 }
 
+.navbar-burger{
+  background: #3b8070;
+}
+
+div .navbar-menu a{
+  color: pink;
+}
 .footer{
   bottom: 0;
   align-content: center;
