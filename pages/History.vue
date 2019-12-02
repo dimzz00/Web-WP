@@ -36,7 +36,7 @@ export default {
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   display: block;
   font-weight: 300;
-  font-size: 85px;
+  font-size: 80px;
   color:white;
   letter-spacing: 1px;
   padding-top: 5%;
@@ -66,7 +66,7 @@ export default {
     font-size: 20px;
   }
   .title{
-    font-size: 66px;
+    font-size: 60px;
     padding-right: 5%;
   }
   }

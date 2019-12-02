@@ -1,7 +1,7 @@
 <template>
    <div class="container2">
       <div class="content">
-        <p class="title">Weaboo.<br>Project.</p><br>
+        <p class="title"><strong style="color: turquoise">Weaboo</strong>.<br><strong style="color: pink">Project.</strong></p><br>
         <p class="subtitle">Weaboo Project sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
         <p class="subtitle">Selama 2 tahun terakhir, Weaboo Project sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
         <img src="" alt="">
