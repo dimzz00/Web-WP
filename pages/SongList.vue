@@ -9,8 +9,14 @@
         <li class="subtitle"> <a class="subtitle">Sayuri - Heikousen</a><br></li>
         <li class="subtitle"> <a class="subtitle">fhàna - Aozora No Rhapsody</a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">Machiko - Tomorrow</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">Manami Numakura - Climber's High</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">Wagakki - Senbonzakura</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">ManamiNumakura - Climber's High</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">blom</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">garap </a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagu</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">yang</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">laen</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagi</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">sibuk</a><br></li>
 
         </ol>
     </div>
@@ -30,13 +36,16 @@ export default {
 <style scoped>
 .container2 {
   margin: 0 auto;
-  min-height: 10vh;
+  min-height: 100vh;
   display: flex;
   justify-content: center;
-  text-align: center;
    background-image: url('/back2.png');
     background-size: cover;
     background-attachment: fixed;
+    padding-bottom: 10%;
+    top: 0%;
+    padding-left: 5%;
+    padding-right: 5%;
 }
 
 .title {
@@ -49,7 +58,7 @@ export default {
     justify-content: center;
     align-items: center;
     text-align: center;
-    top: 5%;
+    top: 0%;
 }
 
 .subtitle {
@@ -68,6 +77,15 @@ export default {
 }
 .content{
     color: white;
-    margin-top:10%;
+    margin-top:0%;
 }
+@media (max-width: 769px){
+  .subtitle{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 66px;
+    padding-right: 5%;
+  }
+  }
 </style>

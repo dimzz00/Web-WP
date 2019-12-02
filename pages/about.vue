@@ -59,4 +59,14 @@ export default {
 .links {
   padding-top: 15px;
 }
+
+@media (max-width: 769px){
+  .subtitle{
+    font-size: 20px;
+  }
+  .title{
+    font-size: 66px;
+    padding-right: 5%;
+  }
+  }
 </style>

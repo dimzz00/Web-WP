@@ -2,10 +2,11 @@
 <div>
   <div class="columns is-multiline is-fullheight is-0" id="face" >
     <div class="column is-full">
-      <nav class="navbar is-fullwidth" role="navigation" aria-label="main navigation" style="margin-top:0px">
+      <nav class="navbar is-fullwidth is-dark" role="navigation" aria-label="main navigation" style="margin-top:0px">
         <div class="navbar-brand">
           <a class="navbar-item" href="/">
-            <p><strong>W.P</strong></p>
+            <p><strong></strong></p>
+            <img src="/WP1.png" alt="WP" class="logo">
           </a>
           <a
           role="button"
@@ -79,8 +80,15 @@
     <div class="column is-full">
       <nuxt/>
     </div>
-    <div class="column has-background-primary ">
-  </div>
+    <!-- <div class="column has-background-primary ">
+      <footer class="footer">
+        <div class="content has-text-centered">
+          <p>
+            <strong>WEABOO PROJECT</strong>
+          </p>
+        </div>
+        </footer>
+  </div> -->
 </div>
 </div>
 </template>
@@ -160,8 +168,9 @@ html {
   width: 100%;
 }
 a{
-  color: #35495e;
+  color: white;
 }
+
 .footer{
   bottom: 0;
   align-content: center;
@@ -172,5 +181,8 @@ a{
 .column {
   background: transparent;
   padding:0mm;
+}
+.logo{
+  left: 5%;
 }
 </style>
