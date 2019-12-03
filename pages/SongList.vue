@@ -59,6 +59,7 @@ export default {
     top: 0%;
     padding-left: 5%;
     padding-right: 5%;
+  background-position: center center;
 }
 
 .title {

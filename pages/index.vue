@@ -97,7 +97,7 @@ export default {
 
 @media (max-width: 769px){
   .content {
-    margin-top : 5%;
+    margin-top : 10%;
     display: block;
   }
   .subtitle{
@@ -115,6 +115,7 @@ export default {
   padding-left:10%;
   padding-bottom: 0%;
   display: block;
+  -ms-accelerator: true;
 }
   }
   @media (min-width: 769px) and (max-width: 1023px) {
