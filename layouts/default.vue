@@ -34,19 +34,19 @@
                 </a>
 
                 <div class="navbar-dropdown" :style="(drop1 == true)? 'display: block':'display: none'">
-                  <a class="navbar-item" @click="showNav = false">
+                  <a class="navbar-item" @click="showNav = false , drop1 = false">
                     <nuxt-link to="/personil/ichi"><strong>iCHi</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" @click="showNav = false">
+                  <a class="navbar-item" @click="showNav = false , drop1 = false">
                     <nuxt-link to="/personil/sam"><strong>Sam</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" @click="showNav = false">
+                  <a class="navbar-item" @click="showNav = false , drop1 = false">
                     <nuxt-link to="/personil/samid"><strong>samID</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" @click="showNav = false">
+                  <a class="navbar-item" @click="showNav = false , drop1 = false">
                     <nuxt-link to="/personil/ananta"><strong>Ananta</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" @click="showNav = false">
+                  <a class="navbar-item" @click="showNav = false , drop1 = false">
                     <nuxt-link to="/personil/gio"><strong>GiO</strong></nuxt-link>
                   </a>
                 </div>
@@ -56,12 +56,12 @@
                   Lain-lain
                 </a>
                 <div class="navbar-dropdown" :style="(drop2 == true)? 'display: block':'display: none'">
-                  <a class="navbar-item" @click="showNav = false"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
+                  <a class="navbar-item" @click="showNav = false , drop2 = false"><nuxt-link to="/media"><strong>Media</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" @click="showNav = false"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
+                  <a class="navbar-item" @click="showNav = false , drop2 = false"><nuxt-link to="/SongList"><strong>Song List</strong></nuxt-link>
                   </a>
-                  <a class="navbar-item" href="https://www.instagram.com/weabooproject/" @click="showNav = false"> <strong>IG</strong> </a>
-                <a class="navbar-item" href="http://youtube.com" @click="showNav = false"> <strong>YT</strong></a>
+                  <a class="navbar-item" href="https://www.instagram.com/weabooproject/" @click="showNav = false , drop2 = false"> <strong>IG</strong> </a>
+                <a class="navbar-item" href="http://youtube.com" @click="showNav = false , drop2 = false"> <strong>YT</strong></a>
                 </div>
               </div>
             </div>

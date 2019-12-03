@@ -51,18 +51,9 @@
                   </div>
                 </div>
               </div>
-              <div v-if="activeTabs == 'video'" >
+              <div v-if="activeTabs == 'video'" class="content" >
                 <h3 class="is-three">Yusup Playlist WP</h3>
-                <figure class="video">
-                  <iframe
-                  width="720"
-                  height="480"
-                  src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"
-                  frameborder="0"
-                  allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-                  allowfullscreen>
-                  </iframe>
-                </figure>
+                <iframe class="yt" width="720" height="480" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"></iframe>
               </div>
               <div v-if="activeTabs == 'Musics'" >
                 <h3 class="is-three">Musics</h3>
@@ -131,6 +122,14 @@ export default {
   word-spacing: 5px;
   padding-bottom: 15px;
 }
+div figure .yt{
+  align-items: center;
+  text-align: center;
+}
+.content{
+  align-items: center;
+  text-align: center;
+}
 
 .links {
   padding-top: 15px;
@@ -190,5 +189,23 @@ div #slider figure {
   text-align: left;
   font-size: 0;
   animation: 30s slidy infinite;
+}
+@media (max-width: 769px){
+.yt{
+  width: 240px;
+  height: 144px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+}
+@media (min-width: 769px) and (max-width: 1023px) {
+  .yt{
+  width: 360px;
+  height: 240px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  }
 }
 </style>
