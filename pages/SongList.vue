@@ -3,13 +3,26 @@
      <div class="content">
         <p class="title"><strong style="color: turquoise">Song</strong><strong style="color: pink">List</strong></p>
         <ol>
-       <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">LiSA - Catch The Moment</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">Babymetal - Megitsune</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">Babymetal - Akatsuki</a><br></li>
-        <li class="subtitle"> <a class="subtitle">Sayuri - Heikousen</a><br></li>
-        <li class="subtitle"> <a class="subtitle">fhàna - Aozora No Rhapsody</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">Machiko - Tomorrow</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">ManamiNumakura - Climber's High</a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">
+          <span style="color: turquoise">LiSA</span> - <span style="color: pink">Catch The Moment</span></a><br>
+        </li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
+          <span style="color: pink">Babymetal</span> - <span style="color: turquoise">Megitsune</span></a><br>
+        </li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
+          <span style="color: turquoise">Babymetal</span> - <span style="color: pink">Akatsuki</span></a><br>
+        </li>
+        <li class="subtitle"> <a class="subtitle">
+          <span style="color: pink">Sayuri</span> - <span style="color: turquoise">Heikousen</span></a><br>
+          </li>
+        <li class="subtitle"> <a class="subtitle">
+          <span style="color: turquoise">fhàna</span> - <span style="color: pink">Aozora No Rhapsody</span></a><br>
+          </li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">
+          <span style="color: pink">Machiko</span> - <span style="color: turquoise">Tomorrow</span></a><br></li>
+        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">
+           <span style="color: turquoise">ManamiNumakura</span> - <span style="color: pink">Climber's High</span></a><br>
+        </li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">blom</a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">garap </a><br></li>
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagu</a><br></li>

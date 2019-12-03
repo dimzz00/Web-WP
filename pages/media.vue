@@ -192,8 +192,8 @@ div #slider figure {
 }
 @media (max-width: 769px){
 .yt{
-  width: 240px;
-  height: 144px;
+  width: 270px;
+  height: 180px;
   justify-content: center;
   align-items: center;
   text-align: center;
@@ -201,8 +201,8 @@ div #slider figure {
 }
 @media (min-width: 769px) and (max-width: 1023px) {
   .yt{
-  width: 360px;
-  height: 240px;
+  width: 540px;
+  height: 360px;
   justify-content: center;
   align-items: center;
   text-align: center;
