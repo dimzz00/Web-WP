@@ -80,19 +80,20 @@ export default {
   top:60%;
   padding-left:7%;
 }
-/* .linksMedia {
+.linksMedia {
   position: fixed;
   justify-content: center;
   align-items: center;
   display: flex;
   left: 35%;
   top: %;
-} */
+}
 
 .content {
   margin-top: 10%;
   margin-left: 10%;
   display: block;
+  position: fixed;
 }
 
 @media (max-width: 769px){

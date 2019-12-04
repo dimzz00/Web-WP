@@ -4,11 +4,20 @@
         <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
         <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
         <p class="subtitle">Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
-           <img src="/kon2017-1.jpg" class="poto">
-           <img src="/kon2017-2.jpg" class="poto">
-        <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
+           <div class="poto">
+             <img src="/kon2017-1.jpg">
+             <p class="subtitle1">Panggung pertama Weaboo Project.</p>
+            </div>
+           <div class="poto">
+             <img src="/kon2017-2.jpg">
+             <p class="subtitle1">Formasi pertama Weaboo Project.</p>
+             </div>
+        <p class="subtitle3"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
         <p class="subtitle">Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
-           <img src="/eni2019-1.jpg" class="poto">
+           <div class="poto">
+             <img src="/eni2019-1.jpg" >
+            <p class="subtitle1">Lastest Gigs</p>
+           </div>
         </div>
   </div>
 </template>
@@ -34,7 +43,6 @@ export default {
   background-attachment: fixed;
   padding-bottom: 10%;
 }
-
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -46,12 +54,12 @@ export default {
   padding-top: 5%;
   padding-left: 10%;
 }
-
 .subtitle {
   font-weight: 300;
   font-size: 30px;
   color: white;
   word-spacing: 5px;
+  padding-top: 0%;
   padding-bottom: 15px;
   padding-left: 10%;
   padding-right: 10%;
@@ -61,11 +69,20 @@ export default {
   font-size: 15px;
   color: white;
   word-spacing: 5px;
-  float: right;
-  padding-top: 70%;
+ padding-top: 0%;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.subtitle3 {
+  font-weight: 300;
+  font-size: 30px;
+  color: white;
+  word-spacing: 5px;
+  padding-top: 5%;
+  padding-bottom: 15px;
+  padding-left: 10%;
   padding-right: 10%;
-  display: flex;
-  position:static;
 }
 .content{
   top:5%;
@@ -84,7 +101,7 @@ export default {
   margin-left: auto;
   margin-right: auto;
   padding-top: 3%;
-  padding-bottom: 3%;
+  padding-bottom: 0%;
 }
 .poto:hover {
   -ms-transform: scale(1.5); /* IE 9 */

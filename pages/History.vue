@@ -11,17 +11,17 @@
         <div class="content1">
           <h3 >Konbanwa Festival 2017</h3>
           <img src="kon2017-1.jpg" style="opacity:1">
-          <p>Konbanwa Fest.</p>
+          <p>Konbanwa Fest. adalah panggung pertama Weaboo Project dengan formasi pertama.</p>
         </div>
         <div class="time">
-          <h4>December 2017</h4>
+          <h4>16 Dec 2017</h4>
         </div>
       </li>
       <li>
         <div class="content1">
           <h3>Pre Bandung Wonderland 2018</h3>
           <img src="BW.jpg" style="opacity:1">
-          <p>Bandung Wonderland</p>
+          <p>Bandung Wonderland adalah panggung kedua Weaboo Project yang mencoba konsep "wibu tradisonal dengan menggunakan batik" dan formasi sekarang berawal dari event ini.</p>
         </div>
         <div class="time">
           <h4>4 March 2018</h4>
@@ -31,73 +31,74 @@
         <div class="content1">
           <h3>Sashimi X Widyatama</h3>
           <img src="sashimi.jpg" style="opacity:1">
-          <p>#SashimiWidyatama</p>
+          <p>#SashimiWidyatama merupakan panggung ketiga Weaboo Project setelah lolos audisi untuk tampil diacara utama.</p>
         </div>
         <div class="time">
-          <h4>28 April 2018</h4>
+          <h4>28 Apr 2018</h4>
         </div>
       </li>
       <li>
         <div class="content1">
           <h3>Ennichisai Blok M 2018</h3>
           <img src="eni2018.jpg" style="opacity:1">
-          <p>Chika Stage Ennichisai Day 2</p>
+          <p>Untuk pertama kalinya Weaboo Project mencoba peruntungan tampil diluar jakarta di Chika Stage Ennichisai Day 2 setelah lolos audisi yang diadakan Ennichisai.</p>
           <p style="font-size:10px">Photo from Facebook Ennichisai</p>
         </div>
         <div class="time">
-          <h4>1 July 2018</h4>
+          <h4>1 Jul 2018</h4>
         </div>
       </li>
        <li>
         <div class="content1">
           <h3>Yamaton Damashii XIII</h3>
           <img src="sementara.jpg" style="opacity:1">
-          <p>Yamaton Damashii XIII</p>
-          <p style="font-size:10px">moonmaap ga ada poto pas manggung</p>
+          <p>Yamaton Damashii XIII adalah panggung kelima Weaboo Project.</p>
+          <p style="font-size:10px">moonmaap ga ada poto pas manggung.</p>
         </div>
         <div class="time">
-          <h4>23 September 2018</h4>
+          <h4>23 Sep 2018</h4>
         </div>
       </li>
       <li>
         <div class="content1">
           <h3>Fesbukan Unpad 2018</h3>
           <img src="Fesbukan.jpg" style="opacity:1">
-        <p>Fesbukan Unpad 2018</p>
+        <p>Fesbukan Unpad 2018 merupakan panggung keenam Weaboo Project.</p>
         </div>
         <div class="time">
-          <h4>7 October 2018</h4>
+          <h4>7 Oct2018</h4>
         </div>
       </li>
        <li>
         <div class="content1">
           <h3>Bandung Wundurland </h3>
           <img src="bwmain.jpg" style="opacity:1">
-        <p>Bandung Wundurland 2018</p>
+        <p>Bandung Wundurland 2018 adalah panggung ketujuh Weaboo Project dengan membawakan lagu fhana-Aozora no Rhapsody.</p>
+        <p style="font-size:10px">moonmaap ga ada poto pas manggung.</p>
         </div>
         <div class="time">
-          <h4>7 October 2018</h4>
+          <h4>4 Nov 2018</h4>
         </div>
       </li>
       <li>
         <div class="content1">
           <h3>Japanzuki Show 14</h3>
           <img src="upi.jpg" style="opacity:1">
-        <p>Japanzuki Show 14 2019 Gedung Ampiteater UPI</p>
+        <p>Weaboo Project tampil di Japanzuki Show 14 2019 sebagai juara kedua audisi yang diadakan oleh Japanzuki Show 14.</p>
         </div>
         <div class="time">
-          <h4>7 October 2018</h4>
+          <h4>28 Apr 2019</h4>
         </div>
       </li>
       <li>
         <div class="content1">
           <h3>Ennichisai Blok M 2019</h3>
           <img src="eni2019-1.jpg" style="opacity:1">
-        <p>Chika Stage Ennichisai Day 1</p>
-        <p style="font-size:10px">Photo from Facebook Ennichisai</p>
+        <p>Untuk kedua kalinya Weaboo Project tampil di Chika Stage Ennichisai di Day 1.</p>
+        <p style="font-size:10px">Photo from Facebook Ennichisai.</p>
         </div>
         <div class="time">
-          <h4>7 October 2018</h4>
+          <h4>22 Jun 2019</h4>
         </div>
       </li>
       <div style="clear:both;"></div>
@@ -222,9 +223,9 @@ h1{
   height:10px;
   top:24px;
   right:-6px;
-  background:rgba(233,33,99,1);
+  background:black;
   border-radius:50%;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+  box-shadow:0 0 0 3px pink;
 }
 .timeline ul li:nth-child(even):before
 {
@@ -234,15 +235,16 @@ h1{
   height:10px;
   top:24px;
   left:-4px;
-  background:rgba(233,33,99,1);
+  background:black;
   border-radius:50%;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.2);
+  box-shadow:0 0 0 3px pink;
 }
 .timeline ul li h3{
   padding:0;
   margin:0;
-  color:rgba(233,33,99,1);
+  color:rgb(red, rgb(100, 100, 100), blue);
   font-weight:800;
+  font-size: 25px;
 }
 .timeline ul li p{
   margin:10px 0 0;
@@ -252,6 +254,7 @@ h1{
   margin:0;
   padding:0;
   font-size:14px;
+  font-weight: 700;
 }
 .timeline ul li:nth-child(odd) .time
 {
@@ -260,10 +263,10 @@ h1{
   right:-165px;
   margin:0;
   padding:8px 16px;
-  background:rgba(233,33,99,1);
-  color:#fff;
+  background:pink;
+  color:black;
   border-radius:18px;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.3);
+  box-shadow:0 0 0 3px palevioletred;
 }
 .timeline ul li:nth-child(even) .time
 {
@@ -272,10 +275,10 @@ h1{
   left:-165px;
   margin:0;
   padding:8px 16px;
-  background:rgba(233,33,99,1);
-  color:#fff;
+  background:pink;
+  color:black;
   border-radius:18px;
-  box-shadow:0 0 0 3px rgba(233,33,99,0.3);
+  box-shadow:0 0 0 3px palevioletred;
 }
 @media(max-width:1000px)
 {

@@ -1,5 +1,8 @@
 <template>
 <div class="container3">
+  <!-- <video autoplay muted loop id="myVideo" type="video/mp4">
+    <source src="/back.mp4">
+  </video> -->
   <nuxt/>
   <!-- <div class="columns">
     <div class="column is-full" >
@@ -107,7 +110,7 @@ html {
   background-attachment:fixed;
   background-repeat: no-repeat;
   background-position: center center;
-  color: white;
+  /* color: white; */
 }
 
 @media (max-width: 769px){
