@@ -4,8 +4,7 @@
        <p class="title"><strong style="color: turquoise">Sejarah</strong><br><strong style="color: pink">Perwibuan</strong></p>
        <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
        <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
-  </div>
-  <div class="timeline" style="clear:both;">
+  <div class="timeline">
     <ul>
       <li>
         <div class="content1">
@@ -100,8 +99,9 @@
           <h4>7 October 2018</h4>
         </div>
       </li>
-      <div style="clear:both;"></div>
     </ul>
+    <div style="clear:both;"></div>
+  </div>
   </div>
   </div>
 </template>
@@ -127,6 +127,12 @@ export default {
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+}
+.blurr {
+   background: rgb(135, 206, 235, 0.3);
+  filter:blur(5);
+  width: 95%;
+  position: static;;
 }
 
 .title {
@@ -235,7 +241,7 @@ h1{
   top:24px;
   left:-4px;
   background:rgba(233,33,99,1);
-  border-radius:50%;
+  border-radius:20%;
   box-shadow:0 0 0 3px rgba(233,33,99,0.2);
 }
 .timeline ul li h3{

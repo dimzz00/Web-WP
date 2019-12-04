@@ -55,13 +55,6 @@
                 <h3 class="is-three">Yusup Playlist WP</h3>
                 <iframe class="yt" width="720" height="480" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"></iframe>
               </div>
-              <div v-if="activeTabs == 'Musics'" >
-                <h3 class="is-three">Musics</h3>
-                <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-                  kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-                  kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
-                </p>
-              </div>
             </div>
           </div>
         </div>

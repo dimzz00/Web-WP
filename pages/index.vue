@@ -76,7 +76,6 @@ export default {
 
 .links {
   padding-top: 15px;
-  position: fixed;
   top:60%;
   padding-left:7%;
 }
