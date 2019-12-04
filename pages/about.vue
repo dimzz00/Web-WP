@@ -4,11 +4,12 @@
         <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
         <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
         <p class="subtitle">Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
-        <img src="" alt="">
+           <img src="/kon2017-1.jpg" class="poto">
+           <img src="/kon2017-2.jpg" class="poto">
         <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
         <p class="subtitle">Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
+           <img src="/eni2019-1.jpg" class="poto">
         </div>
-        <!-- <p class="subtitle1">#MakeWibuGreatAgain </p> -->
   </div>
 </template>
 
@@ -68,9 +69,27 @@ export default {
 }
 .content{
   top:5%;
+  display: block;
 }
 .links {
   padding-top: 15px;
+}
+.poto{
+  width: 50%;
+  height: 50%;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+.poto:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.2);
 }
 
 @media (max-width: 769px){

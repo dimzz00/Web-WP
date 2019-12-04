@@ -26,7 +26,7 @@
               </a>
               <a class="navbar-item" @click="showNav = false"><nuxt-link to="/History"><strong>History</strong></nuxt-link>
               </a>
-              <a class="navbar-item" @click="showNav = false"><nuxt-link to="/next_Gigs"><strong>GiGS</strong></nuxt-link>
+              <a class="navbar-item" @click="showNav = false"><nuxt-link to="/next_Gigs"><strong>News</strong></nuxt-link>
               </a>
                 <div class="navbar-item has-dropdown is-hoverable">
                 <a class="navbar-link" @click="drop1 = !drop1" style="color: pink">
