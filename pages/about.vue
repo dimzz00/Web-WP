@@ -4,20 +4,14 @@
         <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
         <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
         <p class="subtitle">Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
-           <div class="poto">
-             <img src="/kon2017-1.jpg">
+             <img src="/kon2017-1.jpg" class="poto">
              <p class="subtitle1">Panggung pertama Weaboo Project.</p>
-            </div>
-           <div class="poto">
-             <img src="/kon2017-2.jpg">
+             <img src="/kon2017-2.jpg" class="poto">
              <p class="subtitle1">Formasi pertama Weaboo Project.</p>
-             </div>
         <p class="subtitle3"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
         <p class="subtitle">Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
-           <div class="poto">
-             <img src="/eni2019-1.jpg" >
+             <img src="/eni2019-1.jpg" class="poto">
             <p class="subtitle1">Lastest Gigs</p>
-           </div>
         </div>
   </div>
 </template>
@@ -53,6 +47,7 @@ export default {
   letter-spacing: 1px;
   padding-top: 5%;
   padding-left: 10%;
+  padding-bottom: 0%;
 }
 .subtitle {
   font-weight: 300;
@@ -85,8 +80,7 @@ export default {
   padding-right: 10%;
 }
 .content{
-  top:5%;
-  display: block;
+  top:0%;
 }
 .links {
   padding-top: 15px;
@@ -113,9 +107,33 @@ export default {
   .subtitle{
     font-size: 20px;
   }
+   .subtitle3{
+    font-size: 20px;
+  }
   .title{
     font-size: 60px;
     padding-right: 5%;
+    bottom: 0%;
   }
+  .poto{
+  width: auto;
+  height: auto;
+  display: flex;
+   justify-content: center;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  padding-top: 3%;
+  padding-bottom: 0%;
+  padding-left: 10%;
+  padding-right: 10%;
+  }
+  .poto:hover {
+  -ms-transform: scale(1.5); /* IE 9 */
+  -webkit-transform: scale(1.5); /* Safari 3-8 */
+  transform: scale(1.0);
+}
+
   }
 </style>

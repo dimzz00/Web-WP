@@ -137,4 +137,10 @@ export default {
 .tile is-parent:hover{
   transform: scale(1.2);
 }
+@media (max-width: 769px){
+  .container4{
+    padding-right: 5%;
+    padding-left: 5%;
+  }
+}
 </style>
