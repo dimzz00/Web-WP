@@ -103,13 +103,11 @@ export default {
 .links {
   padding-top: 15px;
 }
-.content {
-  margin-top: 10%;
-  margin-left: 10%;
-  display: block;
-  position: fixed;
+.content{
+    color: white;
+    align-items: center;
+  text-align: center;
 }
-
 @media (max-width: 769px){
 .yt{
   width: 360px;
