@@ -32,6 +32,9 @@
         <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">sibuk</a><br></li>
 
         </ol>
+    <audio src="/05 Akatsuki.m4a" controls>
+      <p>Fallback content goes here.</p>
+    </audio>
     </div>
     </div>
 </template>

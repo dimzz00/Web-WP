@@ -8,7 +8,7 @@
         <article class="tile is-child notification is-primary">
           <p class="title">VIRAL! Wibu jadi tulang punggung negara</p>
           <p class="subtitle">para wibu sudah menjadi berkembang sejak wibu project hadir di jagat perwibuan</p>
-          <img src="sashimi.jpg" style="opacity:1">
+          <img src="sashimi.jpg" style="opacity:1" class="poto">
         </article>
         <article class="tile is-child notification is-warning">
           <p class="title">Wibu project menyerang</p>
@@ -38,7 +38,7 @@
   <div class="tile is-parent">
     <article class="tile is-child notification is-success">
       <div class="content">
-        <p class="title">Ternyata SEMUA judul berita yang kalian lihat dihalam ini adalah PALSU!!!</p>
+        <p class="title">Ternyata SEMUA judul berita yang kalian lihat dihalaman ini adalah PALSU!!!</p>
         <p class="subtitle">ya iyalahh ngayal dikit boleh dong</p>
         <img src="kontet.jpeg">
         <img src="kontet.jpeg">
@@ -127,12 +127,22 @@ export default {
   position: fixed;
   left: 40%;
 }
-
+.caption{
+  font-weight: 200;
+  font-size: 15px;
+  color: white;
+  word-spacing: 5px;
+  padding-bottom: 15px;
+  position: fixed;
+  left: 40%;
+}
 .links {
   padding-top: 15px;
   position: fixed;
   top:40%;
   left:60%;
+}
+.poto{
 }
 .tile is-parent:hover{
   transform: scale(1.2);
