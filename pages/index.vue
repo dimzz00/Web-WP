@@ -1,9 +1,8 @@
 <template>
   <div class="container2">
-    <div>
       <div class="content">
          <h1 class="title">
-        <strong style="color: turquoise">Weaboo.</strong> <strong style="color: pink">Project.</strong>
+        <strong style="color: turquoise">Weaboo</strong><br><strong style="color: pink">Project</strong>
       </h1>
       <p class="subtitle">
         <strong style="color: turquoise">#MakeWeaboo</strong><strong style="color: pink">GreatAgain</strong>
@@ -23,16 +22,6 @@
           Media
         </nuxt-link>
       </div>
-      <!-- <div class="linksMedia">
-        <p>Keep In Touch Here!</p><br>
-        <a href="https://www.youtube.com/channel/UCE66EFZGyV7Jbf1yMO4QwNw" class="button--green">Youtube</a>
-        <a href="https://www.instagram.com/weabooproject/" class="button--green">Instagram</a>
-      </div> -->
-       <!-- <div class="linksMedia">
-       <a class="button--green" href="https://www.instagram.com/weabooproject/"><i class="fab fa-youtube"></i><strong>IG</strong> </a>
-        <a class="button--grey" href="http://youtube.com"> <strong>YT</strong></a>
-      </div> -->
-    </div>
   </div>
 </template>
 
@@ -76,23 +65,17 @@ export default {
 
 .links {
   padding-top: 15px;
-  top:60%;
-  padding-left:7%;
-}
-.linksMedia {
   position: fixed;
+  top:60%;
+  padding-left:35%;
   justify-content: center;
-  align-items: center;
-  display: flex;
-  left: 35%;
-  top: %;
+    align-items: center;
+    text-align: center;
 }
-
 .content {
   margin-top: 10%;
   margin-left: 10%;
   display: block;
-  position: fixed;
 }
 
 @media (max-width: 769px){
@@ -112,28 +95,32 @@ export default {
   padding-top: 15px;
   position: fixed;
   top:60%;
-  padding-left:10%;
-  padding-bottom: 0%;
+  padding: 10%;
+  display: flex;
+  justify-content: center;
+    align-items: center;
+    text-align: center;
   display: block;
   -ms-accelerator: true;
 }
   }
   @media (min-width: 769px) and (max-width: 1023px) {
      .content {
-    margin-top : 20%;
+       padding: 0;
+    margin-top: 10%;;
   }
     .subtitle{
     font-size: 20px;
   }
   .title{
-    font-size: 70px;
+    font-size: 60px;
     padding-right: 5%;
   }
   .links {
   padding-top: 15px;
   position: fixed;
   top:60%;
-  padding-left:10%;
+  padding-left:35%;
 }
   }
 </style>

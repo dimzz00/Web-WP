@@ -124,10 +124,11 @@ export default {
   display:block;
   justify-content:center;
   text-align:left;
-  background-image: url('/punggung.png');
+  background-image: url('/punggung.GIF');
   background-size:cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
+  background-position: center center;
 }
 .blurr {
    background: rgb(135, 206, 235, 0.3);

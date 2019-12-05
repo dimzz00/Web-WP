@@ -52,12 +52,12 @@ export default {
   min-height: 100vh;
   display: flex;
   justify-content: center;
-   background-image: url('/back2.png');
-    background-size: cover;
-    background-attachment: fixed;
-    padding-bottom: 10%;
-    top: 0%;
-    padding-left: 5%;
+  background-image: url('/back2.GIF');
+  background-size: cover;
+  background-attachment: fixed;
+  padding-bottom: 10%;
+  top: 0%;
+  padding-left: 5%;
     padding-right: 5%;
   background-position: center center;
 }

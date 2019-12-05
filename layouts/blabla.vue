@@ -105,7 +105,7 @@ html {
   width: 100%;
 }
 .container3 {
-  background-image: url('/BackFix.png');
+  background-image: url('/back.GIF');
   background-size: cover;
   background-attachment:fixed;
   background-repeat: no-repeat;

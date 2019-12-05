@@ -32,9 +32,10 @@ export default {
   min-height: 100vh;
   display: flex;
   text-align: left;
-  background-image: url('/back3.png');
+  background-image: url('/back3.GIF');
   background-size: cover;
   background-attachment: fixed;
+  background-position: center center;
   padding-bottom: 10%;
 }
 .title {
