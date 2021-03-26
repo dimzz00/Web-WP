@@ -1,5 +1,5 @@
 <template>
-<div class="container3">
+<div class="container3" lazy-background="/back.gif">
   <!-- <video autoplay muted loop id="myVideo" type="video/mp4">
     <source src="/back.mp4">
   </video> -->
@@ -105,7 +105,7 @@ html {
   width: 100%;
 }
 .container3 {
-  background-image: url('/back.GIF');
+  /*background-image: url('/back.GIF');*/
   background-size: cover;
   background-attachment:fixed;
   background-repeat: no-repeat;

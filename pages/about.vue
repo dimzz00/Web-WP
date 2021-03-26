@@ -1,5 +1,5 @@
 <template>
-   <div class="container2">
+   <div class="container2" lazy-background="/back3.gif">
       <div class="content">
         <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
         <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
@@ -32,11 +32,10 @@ export default {
   min-height: 100vh;
   display: flex;
   text-align: left;
-  background-image: url('/back3.GIF');
   background-size: cover;
   background-attachment: fixed;
   background-position: center center;
-  padding-bottom: 10%;
+  padding-bottom: 0;
 }
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
@@ -82,6 +81,8 @@ export default {
 }
 .content{
   top:0%;
+  padding-bottom: 10%;
+  background:rgba(0, 0, 0, 0.5)
 }
 .links {
   padding-top: 15px;

@@ -1,102 +1,108 @@
 <template>
-<div class="container">
-  <div class="timeline">
-    <ul>
-      <li>
-        <div class="content1">
-          <h3 >Konbanwa Festival 2017</h3>
-          <img src="kon2017-1.jpg" style="opacity:1">
-          <p>Konbanwa Fest.</p>
-        </div>
-        <div class="time">
-          <h4>December 2017</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Pre Bandung Wonderland 2018</h3>
-          <img src="BW.jpg" style="opacity:1">
-          <p>Bandung Wonderland</p>
-        </div>
-        <div class="time">
-          <h4>4 March 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Sashimi X Widyatama</h3>
-          <img src="sashimi.jpg" style="opacity:1">
-          <p>#SashimiWidyatama</p>
-        </div>
-        <div class="time">
-          <h4>28 April 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Ennichisai Blok M 2018</h3>
-          <img src="eni2018.jpg" style="opacity:1">
-          <p>Chika Stage Ennichisai Day 2</p>
-          <p style="font-size:10px">Photo from Facebook Ennichisai</p>
-        </div>
-        <div class="time">
-          <h4>1 July 2018</h4>
-        </div>
-      </li>
-       <li>
-        <div class="content1">
-          <h3>Yamaton Damashii XIII</h3>
-          <img src="sementara.jpg" style="opacity:1">
-          <p>Yamaton Damashii XIII</p>
-          <p style="font-size:10px">moonmaap ga ada poto pas manggung</p>
-        </div>
-        <div class="time">
-          <h4>23 September 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Fesbukan Unpad 2018</h3>
-          <img src="Fesbukan.jpg" style="opacity:1">
-        <p>Fesbukan Unpad 2018</p>
-        </div>
-        <div class="time">
-          <h4>7 October 2018</h4>
-        </div>
-      </li>
-       <li>
-        <div class="content1">
-          <h3>Bandung Wundurland </h3>
-          <img src="bwmain.jpg" style="opacity:1">
-        <p>Bandung Wundurland 2018</p>
-        </div>
-        <div class="time">
-          <h4>7 October 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Japanzuki Show 14</h3>
-          <img src="upi.jpg" style="opacity:1">
-        <p>Japanzuki Show 14 2019 Gedung Ampiteater UPI</p>
-        </div>
-        <div class="time">
-          <h4>7 October 2018</h4>
-        </div>
-      </li>
-      <li style="clear:both;">
-        <div class="content1">
-          <h3>Ennichisai Blok M 2019</h3>
-          <img src="eni2019-1.jpg" style="opacity:1">
-        <p>Chika Stage Ennichisai Day 1</p>
-        <p style="font-size:10px">Photo from Facebook Ennichisai</p>
-        </div>
-        <div class="time">
-          <h4>7 October 2018</h4>
-        </div>
-      </li>
-    </ul>
-  </div>
+  <div class="container">
+    <div class="timeline">
+      <ul>
+        <li>
+          <div class="content1">
+            <h3>Konbanwa Festival 2017</h3>
+            <img src="kon2017-1.jpg" style="opacity:1">
+            <p>Konbanwa Fest.</p>
+          </div>
+          <div class="time">
+            <h4>December 2017</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Pre Bandung Wonderland 2018</h3>
+            <img src="BW.jpg" style="opacity:1">
+            <p>Bandung Wonderland</p>
+          </div>
+          <div class="time">
+            <h4>4 March 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Sashimi X Widyatama</h3>
+            <img src="sashimi.jpg" style="opacity:1">
+            <p>#SashimiWidyatama</p>
+          </div>
+          <div class="time">
+            <h4>28 April 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Ennichisai Blok M 2018</h3>
+            <img src="eni2018.jpg" style="opacity:1">
+            <p>Chika Stage Ennichisai Day 2</p>
+            <p style="font-size:10px">
+              Photo from Facebook Ennichisai
+            </p>
+          </div>
+          <div class="time">
+            <h4>1 July 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Yamaton Damashii XIII</h3>
+            <img src="sementara.jpg" style="opacity:1">
+            <p>Yamaton Damashii XIII</p>
+            <p style="font-size:10px">
+              moonmaap ga ada poto pas manggung
+            </p>
+          </div>
+          <div class="time">
+            <h4>23 September 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Fesbukan Unpad 2018</h3>
+            <img src="Fesbukan.jpg" style="opacity:1">
+            <p>Fesbukan Unpad 2018</p>
+          </div>
+          <div class="time">
+            <h4>7 October 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Bandung Wundurland </h3>
+            <img src="bwmain.jpg" style="opacity:1">
+            <p>Bandung Wundurland 2018</p>
+          </div>
+          <div class="time">
+            <h4>7 October 2018</h4>
+          </div>
+        </li>
+        <li>
+          <div class="content1">
+            <h3>Japanzuki Show 14</h3>
+            <img src="upi.jpg" style="opacity:1">
+            <p>Japanzuki Show 14 2019 Gedung Ampiteater UPI</p>
+          </div>
+          <div class="time">
+            <h4>7 October 2018</h4>
+          </div>
+        </li>
+        <li style="clear:both;">
+          <div class="content1">
+            <h3>Ennichisai Blok M 2019</h3>
+            <img src="eni2019-1.jpg" style="opacity:1">
+            <p>Chika Stage Ennichisai Day 1</p>
+            <p style="font-size:10px">
+              Photo from Facebook Ennichisai
+            </p>
+          </div>
+          <div class="time">
+            <h4>7 October 2018</h4>
+          </div>
+        </li>
+      </ul>
+    </div>
   </div>
 </template>
 

@@ -28,8 +28,8 @@
               </a>
               <a class="navbar-item" @click="showNav = false"><nuxt-link to="/next_Gigs"><strong>News</strong></nuxt-link>
               </a>
-                <div class="navbar-item has-dropdown is-hoverable">
-                <a class="navbar-link" @click="drop1 = !drop1" style="color: pink">
+                <div class="navbar-item has-dropdown is-hoverable" @click="drop1 = !drop1">
+                <a class="navbar-link" style="color: pink">
                   Kita
                 </a>
 
