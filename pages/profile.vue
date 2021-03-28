@@ -1,8 +1,8 @@
 <template>
-   <div class="container">
-   <h1>HIYA</h1>
-  <br>
-   <p>kontet</p>
+  <div class="container">
+    <h1>HIYA</h1>
+    <br>
+    <p>kontet</p>
   </div>
 </template>
 

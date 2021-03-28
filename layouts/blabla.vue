@@ -1,42 +1,7 @@
 <template>
-<div class="container3" lazy-background="/back.gif">
-  <!-- <video autoplay muted loop id="myVideo" type="video/mp4">
-    <source src="/back.mp4">
-  </video> -->
-  <nuxt/>
-  <!-- <div class="columns">
-    <div class="column is-full" >
-      <nav class="navbar" role="navigation" aria-label="main navigation">
-        <div class="navbar-brand">
-          <a class="navbar-item" href="">
-            <img src="" alt="Weboo Project" width="112" height="28">
-          </a>
-          <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          <span aria-hidden="true"></span>
-          </a>
-          </div>
-      </nav>
-    </div>
-    <div class="column is-four-fifths">
-       <nuxt/>
-    </div>
+  <div class="container3" lazy-background="/back.gif">
+    <Nuxt />
   </div>
-  <div class="content">
-  </div>
-  <div class="columns">
-  <div class="column is-full">
-    <footer class="footer">
-      <div class="content has-text-centered">
-        <p>
-          Kosongin dulu ae gan XD
-        </p>
-      </div>
-      </footer>
-  </div>
-  </div> -->
-</div>
 </template>
 
 <style>

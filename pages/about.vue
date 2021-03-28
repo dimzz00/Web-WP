@@ -1,18 +1,32 @@
 <template>
-   <div class="container2" lazy-background="/back3.gif">
-      <div class="content">
-        <p class="title"><strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong></p><br>
-        <p class="subtitle"><strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.</p>
-        <p class="subtitle">Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.</p>
-             <img src="/kon2017-1.jpg" class="poto">
-             <p class="subtitle1">Panggung pertama Weaboo Project.</p>
-             <img src="/kon2017-2.jpg" class="poto">
-             <p class="subtitle1">Formasi pertama Weaboo Project.</p>
-        <p class="subtitle3"><strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.</p>
-        <p class="subtitle">Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!. </p>
-             <img src="/eni2019-1.jpg" class="poto">
-            <p class="subtitle1">Lastest Gigs</p>
-        </div>
+  <div class="content">
+    <p class="title">
+      <strong style="color: turquoise">Weaboo.</strong><br><strong style="color: pink">Project.</strong>
+    </p><br>
+    <p class="subtitle">
+      <strong style="color: turquoise">Weaboo Project </strong>sebuah band dari bojongsoang yang awalnya tampil di event jejepangan, namun sekarang mencoba untuk tampil lebih umum selain jejepangan saja.
+    </p>
+    <p class="subtitle">
+      Selama 2 tahun terakhir, <strong style="color: pink">Weaboo Project </strong> sudah bermain dibanyak festival jejepangan dibandung dan beberapa kali di jakarta.
+    </p>
+    <img v-lazy-load src="/kon2017-1.jpg" class="poto">
+    <p class="subtitle1">
+      Panggung pertama Weaboo Project.
+    </p>
+    <img v-lazy-load src="/kon2017-2.jpg" class="poto">
+    <p class="subtitle1">
+      Formasi pertama Weaboo Project.
+    </p>
+    <p class="subtitle3">
+      <strong style="color: turquoise">Weaboo Project </strong> memang tidak terlalu sering untuk tampil festival jepang dikarenakan masing-masing personil juga memiliki kehidupan normal.
+    </p>
+    <p class="subtitle">
+      Karena <strong style="color: pink">Weaboo Project </strong> dibuat untuk menampung para "WIBU" yang menyukai musik untuk berproject dalam satu kesatuan perwibuan yang lebih baik!.
+    </p>
+    <img v-lazy-load src="/eni2019-1.jpg" class="poto">
+    <p class="subtitle1">
+      Lastest Gigs
+    </p>
   </div>
 </template>
 
@@ -27,16 +41,6 @@ export default {
 </script>
 
 <style scoped>
-.container2 {
-  top: 5%;
-  min-height: 100vh;
-  display: flex;
-  text-align: left;
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center center;
-  padding-bottom: 0;
-}
 .title {
   font-family: 'Quicksand', 'Source Sans Pro', -apple-system, BlinkMacSystemFont,
     'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
@@ -82,14 +86,14 @@ export default {
 .content{
   top:0%;
   padding-bottom: 10%;
-  background:rgba(0, 0, 0, 0.5)
+  background:rgba(0, 0, 0, 0.5);
 }
 .links {
   padding-top: 15px;
 }
 .poto{
-  width: 50%;
-  height: 50%;
+  width: 25%;
+  height: 25%;
   display: flex;
    justify-content: center;
   align-items: center;

@@ -1,111 +1,125 @@
 <template>
-   <div class="container2">
-   <div class="content" style="clear:both;">
-     <marquee behavior="alternate" scrollamount="10" direction="right" style="padding-bottom: 5%">
-              <p class="title"><strong style="color: turquoise">Sejarah</strong><br><strong style="color: pink">Perwibuan</strong></p>
-     </marquee>
-       <p class="subtitle">Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.</p>
-       <p class="subtitle">Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG</p>
-  <div class="timeline">
-    <ul>
-      <li>
-        <div class="content1">
-          <h3 >Konbanwa Festival 2017</h3>
-          <img src="kon2017-1.jpg" style="opacity:1">
-          <p>Konbanwa Fest. adalah panggung pertama Weaboo Project dengan formasi pertama.</p>
-        </div>
-        <div class="time">
-          <h4>16 Dec 2017</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Pre Bandung Wonderland 2018</h3>
-          <img src="BW.jpg" style="opacity:1">
-          <p>Bandung Wonderland adalah panggung kedua Weaboo Project yang mencoba konsep "wibu tradisonal dengan menggunakan batik" dan formasi sekarang berawal dari event ini.</p>
-        </div>
-        <div class="time">
-          <h4>4 March 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Sashimi X Widyatama</h3>
-          <img src="sashimi.jpg" style="opacity:1">
-          <p>#SashimiWidyatama merupakan panggung ketiga Weaboo Project setelah lolos audisi untuk tampil diacara utama.</p>
-        </div>
-        <div class="time">
-          <h4>28 Apr 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Ennichisai Blok M 2018</h3>
-          <img src="eni2018.jpg" style="opacity:1">
-          <p>Untuk pertama kalinya Weaboo Project mencoba peruntungan tampil diluar jakarta di Chika Stage Ennichisai Day 2 setelah lolos audisi yang diadakan Ennichisai.</p>
-          <p style="font-size:10px">Photo from Facebook Ennichisai</p>
-        </div>
-        <div class="time">
-          <h4>1 Jul 2018</h4>
-        </div>
-      </li>
-       <li>
-        <div class="content1">
-          <h3>Yamaton Damashii XIII</h3>
-          <img src="sementara.jpg" style="opacity:1">
-          <p>Yamaton Damashii XIII adalah panggung kelima Weaboo Project.</p>
-          <p style="font-size:10px">moonmaap ga ada poto pas manggung.</p>
-        </div>
-        <div class="time">
-          <h4>23 Sep 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Fesbukan Unpad 2018</h3>
-          <img src="Fesbukan.jpg" style="opacity:1">
-        <p>Fesbukan Unpad 2018 merupakan panggung keenam Weaboo Project.</p>
-        </div>
-        <div class="time">
-          <h4>7 Oct2018</h4>
-        </div>
-      </li>
-       <li>
-        <div class="content1">
-          <h3>Bandung Wundurland </h3>
-          <img src="bwmain.jpg" style="opacity:1">
-        <p>Bandung Wundurland 2018 adalah panggung ketujuh Weaboo Project dengan membawakan lagu fhana-Aozora no Rhapsody.</p>
-        <p style="font-size:10px">moonmaap ga ada poto pas manggung.</p>
-        </div>
-        <div class="time">
-          <h4>4 Nov 2018</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Japanzuki Show 14</h3>
-          <img src="upi.jpg" style="opacity:1">
-        <p>Weaboo Project tampil di Japanzuki Show 14 2019 sebagai juara kedua audisi yang diadakan oleh Japanzuki Show 14.</p>
-        </div>
-        <div class="time">
-          <h4>28 Apr 2019</h4>
-        </div>
-      </li>
-      <li>
-        <div class="content1">
-          <h3>Ennichisai Blok M 2019</h3>
-          <img src="eni2019-1.jpg" style="opacity:1">
-        <p>Untuk kedua kalinya Weaboo Project tampil di Chika Stage Ennichisai di Day 1.</p>
-        <p style="font-size:10px">Photo from Facebook Ennichisai.</p>
-        </div>
-        <div class="time">
-          <h4>22 Jun 2019</h4>
-        </div>
-      </li>
-    </ul>
-    <div style="clear:both;"></div>
-  </div>
-  </div>
+  <div class="container2">
+    <div class="content" style="clear:both;">
+      <marquee behavior="alternate" scrollamount="10" direction="right" style="padding-bottom: 5%">
+        <p class="title">
+          <strong style="color: turquoise">Sejarah</strong><br><strong style="color: pink">Perwibuan</strong>
+        </p>
+      </marquee>
+      <p class="subtitle">
+        Awalnya terbentuk hanya untuk menjadi project cover seperti AniSongCollabo.
+      </p>
+      <p class="subtitle">
+        Karena terkendala peralatan, fokus dirubah menjadi band seutuhnya yang tampil diacara festival jejepangan BDG
+      </p>
+      <div class="timeline">
+        <ul>
+          <li>
+            <div class="content1">
+              <h3>Konbanwa Festival 2017</h3>
+              <img src="kon2017-1.jpg" style="opacity:1">
+              <p>Konbanwa Fest. adalah panggung pertama Weaboo Project dengan formasi pertama.</p>
+            </div>
+            <div class="time">
+              <h4>16 Dec 2017</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Pre Bandung Wonderland 2018</h3>
+              <img src="BW.jpg" style="opacity:1">
+              <p>Bandung Wonderland adalah panggung kedua Weaboo Project yang mencoba konsep "wibu tradisonal dengan menggunakan batik" dan formasi sekarang berawal dari event ini.</p>
+            </div>
+            <div class="time">
+              <h4>4 March 2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Sashimi X Widyatama</h3>
+              <img src="sashimi.jpg" style="opacity:1">
+              <p>#SashimiWidyatama merupakan panggung ketiga Weaboo Project setelah lolos audisi untuk tampil diacara utama.</p>
+            </div>
+            <div class="time">
+              <h4>28 Apr 2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Ennichisai Blok M 2018</h3>
+              <img src="eni2018.jpg" style="opacity:1">
+              <p>Untuk pertama kalinya Weaboo Project mencoba peruntungan tampil diluar jakarta di Chika Stage Ennichisai Day 2 setelah lolos audisi yang diadakan Ennichisai.</p>
+              <p style="font-size:10px">
+                Photo from Facebook Ennichisai
+              </p>
+            </div>
+            <div class="time">
+              <h4>1 Jul 2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Yamaton Damashii XIII</h3>
+              <img src="sementara.jpg" style="opacity:1">
+              <p>Yamaton Damashii XIII adalah panggung kelima Weaboo Project.</p>
+              <p style="font-size:10px">
+                moonmaap ga ada poto pas manggung.
+              </p>
+            </div>
+            <div class="time">
+              <h4>23 Sep 2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Fesbukan Unpad 2018</h3>
+              <img src="Fesbukan.jpg" style="opacity:1">
+              <p>Fesbukan Unpad 2018 merupakan panggung keenam Weaboo Project.</p>
+            </div>
+            <div class="time">
+              <h4>7 Oct2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Bandung Wundurland </h3>
+              <img src="bwmain.jpg" style="opacity:1">
+              <p>Bandung Wundurland 2018 adalah panggung ketujuh Weaboo Project dengan membawakan lagu fhana-Aozora no Rhapsody.</p>
+              <p style="font-size:10px">
+                moonmaap ga ada poto pas manggung.
+              </p>
+            </div>
+            <div class="time">
+              <h4>4 Nov 2018</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Japanzuki Show 14</h3>
+              <img src="upi.jpg" style="opacity:1">
+              <p>Weaboo Project tampil di Japanzuki Show 14 2019 sebagai juara kedua audisi yang diadakan oleh Japanzuki Show 14.</p>
+            </div>
+            <div class="time">
+              <h4>28 Apr 2019</h4>
+            </div>
+          </li>
+          <li>
+            <div class="content1">
+              <h3>Ennichisai Blok M 2019</h3>
+              <img src="eni2019-1.jpg" style="opacity:1">
+              <p>Untuk kedua kalinya Weaboo Project tampil di Chika Stage Ennichisai di Day 1.</p>
+              <p style="font-size:10px">
+                Photo from Facebook Ennichisai.
+              </p>
+            </div>
+            <div class="time">
+              <h4>22 Jun 2019</h4>
+            </div>
+          </li>
+        </ul>
+        <div style="clear:both;" />
+      </div>
+    </div>
   </div>
 </template>
 
@@ -120,6 +134,7 @@ export default {
 </script>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 .container2 {
   margin: 0 auto;
   min-height: 100vh;
@@ -178,7 +193,6 @@ div.content1 p{
   font-weight: bold;
   color:black;
 }
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 body{
   padding:0;
   margin:0;

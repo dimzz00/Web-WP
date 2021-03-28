@@ -1,22 +1,22 @@
 <template>
   <div id="tabs" class="container">
     <div class="tabs">
-        <a v-on:click="activetab=1" v-bind:class="[ activetab === 1 ? 'active' : '' ]">Tab 1</a>
-        <a v-on:click="activetab=2" v-bind:class="[ activetab === 2 ? 'active' : '' ]">Tab 2</a>
-        <a v-on:click="activetab=3" v-bind:class="[ activetab === 3 ? 'active' : '' ]">Tab 3</a>
+      <a v-on:click="activetab=1" v-bind:class="[ activetab === 1 ? 'active' : '' ]">Tab 1</a>
+      <a v-on:click="activetab=2" v-bind:class="[ activetab === 2 ? 'active' : '' ]">Tab 2</a>
+      <a v-on:click="activetab=3" v-bind:class="[ activetab === 3 ? 'active' : '' ]">Tab 3</a>
     </div>
     <div class="content">
-        <div v-if="activetab === 1" class="tabcontent">
-            Content for tab one
-        </div>
-        <div v-if="activetab === 2" class="tabcontent">
-            Content for tab two
-        </div>
-        <div v-if="activetab === 3" class="tabcontent">
-            Content for tab three
-        </div>
+      <div v-if="activetab === 1" class="tabcontent">
+        Content for tab one
+      </div>
+      <div v-if="activetab === 2" class="tabcontent">
+        Content for tab two
+      </div>
+      <div v-if="activetab === 3" class="tabcontent">
+        Content for tab three
+      </div>
     </div>
-</div>
+  </div>
 </template>
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/vue/1.0.18/vue.min.js"></script>

@@ -1,42 +1,65 @@
 <template>
-    <div class="container2">
-     <div class="content">
-        <p class="title"><strong style="color: turquoise">Song</strong><strong style="color: pink">List</strong></p>
-        <ol>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">
-          <span style="color: turquoise">LiSA</span> - <span style="color: pink">Catch The Moment</span></a><br>
+  <div class="container2">
+    <div class="content">
+      <p class="title">
+        <strong style="color: turquoise">Song</strong><strong style="color: pink">List</strong>
+      </p>
+      <ol>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=Ayjj473UPpU">
+            <span style="color: turquoise">LiSA</span> - <span style="color: pink">Catch The Moment</span></a><br>
         </li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
-          <span style="color: pink">Babymetal</span> - <span style="color: turquoise">Megitsune</span></a><br>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
+            <span style="color: pink">Babymetal</span> - <span style="color: turquoise">Megitsune</span></a><br>
         </li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
-          <span style="color: turquoise">Babymetal</span> - <span style="color: pink">Akatsuki</span></a><br>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=Pe9YewTA-y8">
+            <span style="color: turquoise">Babymetal</span> - <span style="color: pink">Akatsuki</span></a><br>
         </li>
-        <li class="subtitle"> <a class="subtitle">
-          <span style="color: pink">Sayuri</span> - <span style="color: turquoise">Heikousen</span></a><br>
-          </li>
-        <li class="subtitle"> <a class="subtitle">
-          <span style="color: turquoise">fhàna</span> - <span style="color: pink">Aozora No Rhapsody</span></a><br>
-          </li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">
-          <span style="color: pink">Machiko</span> - <span style="color: turquoise">Tomorrow</span></a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">
-           <span style="color: turquoise">ManamiNumakura</span> - <span style="color: pink">Climber's High</span></a><br>
+        <li class="subtitle">
+          <a class="subtitle">
+            <span style="color: pink">Sayuri</span> - <span style="color: turquoise">Heikousen</span></a><br>
         </li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">blom</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">garap </a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagu</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">yang</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">laen</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagi</a><br></li>
-        <li class="subtitle"> <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">sibuk</a><br></li>
-
-        </ol>
-    <audio src="/05 Akatsuki.m4a" controls>
-      <p>Fallback content goes here.</p>
-    </audio>
+        <li class="subtitle">
+          <a class="subtitle">
+            <span style="color: turquoise">fhàna</span> - <span style="color: pink">Aozora No Rhapsody</span></a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=QF6U5r_qcOc">
+            <span style="color: pink">Machiko</span> - <span style="color: turquoise">Tomorrow</span></a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=pU66822dz0M">
+            <span style="color: turquoise">ManamiNumakura</span> - <span style="color: pink">Climber's High</span></a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">blom</a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">garap </a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagu</a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">yang</a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">laen</a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">lagi</a><br>
+        </li>
+        <li class="subtitle">
+          <a class="subtitle" href="https://www.youtube.com/watch?v=qg973PSo0NM">sibuk</a><br>
+        </li>
+      </ol>
+      <audio src="/05 Akatsuki.m4a" controls>
+        <p>Fallback content goes here.</p>
+      </audio>
     </div>
-    </div>
+  </div>
 </template>
 
 <script>

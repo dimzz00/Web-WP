@@ -1,37 +1,34 @@
 <template>
   <div class="container2">
-      <div class="content">
-         <h1 class="title">
+    <div class="content">
+      <h1 class="title">
         <strong style="color: turquoise">Weaboo</strong><br><strong style="color: pink">Project</strong>
       </h1>
       <p class="subtitle">
         <strong style="color: turquoise">#MakeWeaboo</strong><strong style="color: pink">GreatAgain</strong>
       </p>
-      </div>
-      <div class="links">
-        <nuxt-link
-          to="/about"
-          class="button--green"
-        >
-          About
-        </nuxt-link>
-        <nuxt-link
-          to="media"
-          class="button--grey"
-        >
-          Media
-        </nuxt-link>
-      </div>
+    </div>
+    <div class="links">
+      <nuxt-link
+        to="/about"
+        class="button--green"
+      >
+        About
+      </nuxt-link>
+      <nuxt-link
+        to="media"
+        class="button--grey"
+      >
+        Media
+      </nuxt-link>
+    </div>
   </div>
 </template>
 
 <script>
-// import Logo from '~/components/Logo.vue'
 
 export default {
-  layout: 'blabla',
-  components: {
-  }
+  layout: 'blabla'
 }
 </script>
 

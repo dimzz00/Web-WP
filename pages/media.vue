@@ -1,72 +1,85 @@
 <template>
-    <div class="container2">
-      <div class="columns1 is-multiline">
-        <div class="column3 is-full">
-          <div class="tabs">
-            <ul>
-              <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'"><a>Gambar</a></li>
-              <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'"><a>Lagu</a></li>
-              <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'"><a>YuSup PlayList</a></li>
-            </ul>
-          </div>
-          <div class="content">
-            <div class="column">
-              <div :class="'modal' + ((activeModal == activeClick) ? ' is-active is-clipped' : '')">
-                <div class="modal-background"></div>
-                <div class="modal-content">
-                  <p class="image is-16by9">
-                    <img :src="personil[activePict]" alt="">
-                  </p>
-                  <h4>{{ personil[activePict] }}</h4>
-                </div>
-                <button class="modal-close is-large" aria-label="close" @click="activeClick = false"></button>
-              </div>
-              <div v-if="activeTabs == 'pictures'" >
-                <h3 class="is-three">Gambar's</h3>
-                <div class="columns is-multiline">
-                  <div class="column is-one-third">
-                    <figure class="is-2by1">
-                      <img src="ichi.png" alt="" @click="activeClick = true, activePict = 'ichi'">
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                     <figure class="is-2by1">
-                      <img src="ananta.png" alt=""  @click="activeClick = true, activePict = 'ananta'">
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                    <figure class="is-2by1">
-                      <img src="Gio.jpg" alt=""  @click="activeClick = true, activePict = 'gio'">
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                    <figure class="is-2by1">
-                      <img src="sam.png" alt=""  @click="activeClick = true, activePict = 'sam'">
-                    </figure>
-                  </div>
-                  <div class="column is-one-third">
-                    <figure class="is-2by1">
-                      <img src="samid.png" alt=""  @click="activeClick = true, activePict = 'samid'">
-                    </figure>
-                  </div>
-                </div>
-              </div>
-              <div v-if="activeTabs == 'video'" class="content" >
-                <h3 class="is-three">Yusup Playlist WP</h3>
-                <iframe class="yt" width="720" height="480" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6"></iframe>
-              </div>
-              <div v-if="activeTabs == 'Musics'" >
-                <h3 class="is-three">Musics</h3>
-                <p>sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
-                  kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
-                  kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+  <div class="container2">
+    <div class="columns1 is-multiline">
+      <div class="column3 is-full">
+        <div class="tabs">
+          <ul>
+            <li :class="'tablink ' + ((activeTabs == 'pictures') ? 'is-active' : '')" @click="activeTabs = 'pictures'">
+              <a>Gambar</a>
+            </li>
+            <li :class="'tablink ' + ((activeTabs == 'Musics') ? 'is-active' : '')" @click="activeTabs = 'Musics'">
+              <a>Lagu</a>
+            </li>
+            <li :class="'tablink ' + ((activeTabs == 'video') ? 'is-active' : '')" @click="activeTabs = 'video'">
+              <a>YuSup PlayList</a>
+            </li>
+          </ul>
+        </div>
+        <div class="content">
+          <div class="column">
+            <div :class="'modal' + ((activeModal == activeClick) ? ' is-active is-clipped' : '')">
+              <div class="modal-background" />
+              <div class="modal-content">
+                <p class="image is-16by9">
+                  <img :src="personil[activePict]" alt="">
                 </p>
+                <h4>{{ personil[activePict] }}</h4>
               </div>
+              <button @click="activeClick = false" class="modal-close is-large" aria-label="close" />
+            </div>
+            <div v-if="activeTabs == 'pictures'">
+              <h3 class="is-three">
+                Gambar's
+              </h3>
+              <div class="columns is-multiline">
+                <div class="column is-one-third">
+                  <figure class="is-2by1">
+                    <img @click="activeClick = true, activePict = 'ichi'" src="ichi.png" alt="">
+                  </figure>
+                </div>
+                <div class="column is-one-third">
+                  <figure class="is-2by1">
+                    <img @click="activeClick = true, activePict = 'ananta'" src="ananta.png" alt="">
+                  </figure>
+                </div>
+                <div class="column is-one-third">
+                  <figure class="is-2by1">
+                    <img @click="activeClick = true, activePict = 'gio'" src="Gio.jpg" alt="">
+                  </figure>
+                </div>
+                <div class="column is-one-third">
+                  <figure class="is-2by1">
+                    <img @click="activeClick = true, activePict = 'sam'" src="sam.png" alt="">
+                  </figure>
+                </div>
+                <div class="column is-one-third">
+                  <figure class="is-2by1">
+                    <img @click="activeClick = true, activePict = 'samid'" src="samid.png" alt="">
+                  </figure>
+                </div>
+              </div>
+            </div>
+            <div v-if="activeTabs == 'video'" class="content">
+              <h3 class="is-three">
+                Yusup Playlist WP
+              </h3>
+              <iframe class="yt" width="720" height="480" src="https://www.youtube.com/embed/videoseries?list=PLfH8pFcI2uJtCuZ9eSa1edKvJoOGruuJ6" />
+            </div>
+            <div v-if="activeTabs == 'Musics'">
+              <h3 class="is-three">
+                Musics
+              </h3>
+              <p>
+                sjfmkfndksnfjsndfkmiekmfkdmfosnmdknfe.
+                kfkdsmfksdmfklmeknfmkdnsfmndfjenkfnmdnsjenf.
+                kdsfmdksnfjenmfmdsfnnfnejfnmmslnfalnlfknklnfonwe.
+              </p>
             </div>
           </div>
         </div>
       </div>
     </div>
+  </div>
 </template>
 
 <script>

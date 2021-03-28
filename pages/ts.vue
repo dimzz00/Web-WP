@@ -107,6 +107,7 @@
 </template>
 
 <style scoped>
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 .container {
   margin: 0 auto;
   min-height: 100vh;
@@ -118,8 +119,6 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
-
-@import url('https://fonts.googleapis.com/css?family=Montserrat:400,500,600');
 body{
   padding:0;
   margin:0;

@@ -8,13 +8,17 @@
     </div>
     <div v-else>Tidak ada personil dengan nama: {{ $route.params.name }}</div>
   </div> -->
-  <div class="container2" :style="{ 'background-image': 'url(' + item.background + ')' }">
-     <div class="content" v-if="item">
-        <p class="title">{{ item.nama }}</p>
-        <p class="subtitle">{{ item.data }}</p>
-        <iframe class="yt" width="720" height="480" :src="item.yusup"></iframe>
+  <div :style="{ 'background-image': 'url(' + item.background + ')' }" class="container2">
+    <div v-if="item" class="content">
+      <p class="title">
+        {{ item.nama }}
+      </p>
+      <p class="subtitle">
+        {{ item.data }}
+      </p>
+      <iframe :src="item.yusup" class="yt" width="720" height="480" />
     </div>
-    </div>
+  </div>
 </template>
 
 <script>
