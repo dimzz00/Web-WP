@@ -8,7 +8,7 @@
     </div>
     <div v-else>Tidak ada personil dengan nama: {{ $route.params.name }}</div>
   </div> -->
-  <div :style="{ 'background-image': 'url(' + item.background + ')' }" class="container2">
+  <div :style="{ 'background-image': 'url(' + item.background + ')' }" v-lazy-load class="container2">
     <div v-if="item" class="content">
       <p class="title">
         {{ item.nama }}
@@ -72,6 +72,7 @@ export default {
 .container2 {
   margin: 0 auto;
   min-height: 100vh;
+  min-width: 100%;
   display: flex;
   justify-content: center;
   align-items: center;

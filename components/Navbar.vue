@@ -31,7 +31,7 @@
         </nuxt-link>
         <div @click="drop1 = !drop1" class="navbar-item has-dropdown is-hoverable">
           <a class="navbar-link" style="color: pink">
-            Kita
+            <strong>Kita</strong>
           </a>
 
           <div :style="(drop1 == true)? 'display: block':'display: none'" class="navbar-dropdown">
@@ -49,7 +49,7 @@
         </div>
         <div class="navbar-item has-dropdown is-hoverable">
           <a @click="drop2 = !drop2" class="navbar-link" style="color: pink">
-            Lain-lain
+            <strong>Lain-lain</strong>
           </a>
           <div :style="(drop2 == true)? 'display: block':'display: none'" class="navbar-dropdown">
             <nuxt-link id="link" @click="showNav = false , drop2 = false" to="/media" class="navbar-item">

@@ -92,8 +92,8 @@ export default {
   padding-top: 15px;
 }
 .poto{
-  width: 25%;
-  height: 25%;
+  width: 50%;
+  height: 50%;
   display: flex;
    justify-content: center;
   align-items: center;

@@ -1,7 +1,7 @@
 <template>
   <div class="container" lazy-background="/back3.gif">
     <div class="content">
-      <Navbar />
+      <Navbar class="absolute" />
       <Nuxt />
     </div>
   </div>
@@ -28,5 +28,8 @@ export default {
   background-position: center center;
   padding-bottom: 0;
   box-sizing: content-box;
+}
+.content {
+  min-width: 100%;
 }
 </style>
