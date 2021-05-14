@@ -178,6 +178,7 @@ export default {
 .content{
   padding-bottom:20px;
   margin-top: 0%;
+  background:rgba(0, 0, 0, 0.5);
 }
 .content1{
   margin-top: 5%;

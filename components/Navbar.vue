@@ -37,7 +37,7 @@
           <div :style="(drop1 == true)? 'display: block':'display: none'" class="navbar-dropdown">
             <nuxt-link
               id="link"
-              @click="showNav = false , drop1 = false"
+              @click="clickAny()"
               v-for="item in personil"
               v-bind:key="item"
               :to="'/personil/' + item.name.toLowerCase()"
@@ -52,10 +52,10 @@
             <strong>Lain-lain</strong>
           </a>
           <div :style="(drop2 == true)? 'display: block':'display: none'" class="navbar-dropdown">
-            <nuxt-link id="link" @click="showNav = false , drop2 = false" to="/media" class="navbar-item">
+            <nuxt-link id="link" @click="clickAny()" to="/coba" class="navbar-item">
               <strong>Media</strong>
             </nuxt-link>
-            <nuxt-link id="link" @click="showNav = false , drop2 = false" to="/SongList" class="navbar-item">
+            <nuxt-link id="link" @click="clickAny()" to="/SongList" class="navbar-item">
               <strong>Song List</strong>
             </nuxt-link>
             <a
@@ -110,6 +110,13 @@ export default {
           name: 'GiO'
         }
       }
+    }
+  },
+  methods: {
+    clickAny () {
+      this.showNav = false
+      this.drop1 = false
+      this.drop2 = false
     }
   }
 
