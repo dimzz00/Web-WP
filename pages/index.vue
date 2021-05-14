@@ -16,7 +16,7 @@
         About
       </nuxt-link>
       <nuxt-link
-        to="media"
+        to="coba"
         class="button--grey"
       >
         Media
